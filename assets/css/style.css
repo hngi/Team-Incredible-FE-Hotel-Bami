@@ -8,18 +8,18 @@
     align-content: center;
 }
 
-.section1 {
+.footer-section1 {
     width: 45%;
     padding: 0px 2.5%;
 }
 
-.section2 {
+.footer-section2 {
     width: 45%;
     display: flex;
     justify-content: space-around;
 }
 
-.title {
+.footer-title {
     font-family: Poppins;
     font-weight: 600;
     font-size: 30px;
@@ -28,15 +28,15 @@
     color: #fff;
 }
 
-.view {
+.footer-title>span {
     color: #AC8DAF;
 }
 
 /* icons styling */
 
-.tw,
-.fb,
-.li {
+.footer-tw,
+.footer-fb,
+.footer-li {
     padding: 15px;
     background-color: #AC8DAF;
     font-size: 18px;
@@ -46,15 +46,15 @@
 
 }
 
-.fb {
+.footer-fb {
     padding: 15px 20px;
 }
 
-.newsletter {
+.footer-newsletter {
     padding: 15px;
 }
 
-.subscribe {
+.footer-subscribe {
     color: #fff;
     font-family: Poppins;
     font-style: normal;
@@ -101,8 +101,8 @@ input[type="submit"] {
     color: #fff;
 }
 
-.about-title,
-.suites-title {
+.footer-about-title,
+.footer-suites-title {
     color: #fff;
     font-family: Poppins;
     font-style: normal;
@@ -125,11 +125,11 @@ li {
 
 
 @media screen and (max-width: 1024px) {
-    .section1 {
+    .footer-section1 {
         width: 50%;
     }
 
-    .section2 {
+    .footer-section2 {
         width: 40%
     }
 
@@ -157,30 +157,30 @@ li {
         font-size: 18px;
     }
 
-    .section1 {
+    .footer-section1 {
         width: 100%;
         padding: 0;
         margin-bottom: 30px;
     }
 
-    .section2 {
+    .footer-section2 {
         width: 100%;
         justify-content: left;
     }
 
-    .about,
-    .suites {
+    .footer-about,
+    .footer-suites {
         padding: 0 10px;
         width: 50%;
     }
 
-    .title,
-    .subscribe {
+    .footer-title,
+    .footer-subscribe {
         font-size: 24px;
     }
 
-    .about-title,
-    .suites-title {
+    .footer-about-title,
+    .footer-suites-title {
         font-size: 18px;
     }
 
@@ -207,8 +207,8 @@ li {
         padding: 0;
     }
 
-    .section1,
-    .section2 {
+    .footer-section1,
+    .footer-section2 {
         width: 100%;
     }
 
@@ -229,23 +229,23 @@ li {
         width: 100%;
     }
 
-    .subscribe {
+    .footer-subscribe {
         font-size: 18px;
         padding: 0;
         margin-bottom: 0;
     }
 
-    .newsletter {
+    .footer-newsletter {
         padding: 0 !important;
     }
 
-    .subscribe {
+    .footer-subscribe {
         padding-left: 10px;
     }
 
-    .tw,
-    .fb,
-    .li {
+    .footer-tw,
+    .footer-fb,
+    .footer-li {
         padding: 10px;
     }
 
@@ -264,19 +264,19 @@ li {
         margin: 0 auto;
     }
 
-    .tw,
-    .fb,
-    .li {
+    .footer-tw,
+    .footer-fb,
+    .footer-li {
         font-size: 14px;
         margin: 0 5px;
         color: #fff;
     }
 
-    .title {
+    .footer-title {
         padding: 8px;
     }
 
-    .fb {
+    .footer-fb {
         padding: 10px 12px;
     }
 }
