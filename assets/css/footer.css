@@ -111,6 +111,11 @@ input[type="submit"] {
     line-height: 36px;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
+
 ul {
     list-style: none;
     padding: inherit;
