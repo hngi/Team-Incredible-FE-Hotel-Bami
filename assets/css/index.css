@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.welcome-page{
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color:  #DDB6C6;
+    left: 0;
+    top: 0;
+}
+
+.welcome-page .welcome-title{
+    display: flex;
+    position:absolute;
+    position: absolute;
+    width: 488px;
+    height: 114px;
+    left: 100px;
+    top: 300px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150px;
+    color: #484C7F;
+   
+}
+
+.welcome-page .title .right-bar{
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 570px;
+    top: 470px;
+    background: #AC8DAF;
+    border-radius: 20px;
+}
+
+.welcome-page .hotel-desc{
+    position: absolute;
+    width: 509px;
+    height: 108px;
+    left: 112px;
+    top: 495px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+}
+
+.welcome-page .hotel-image {
+    position: absolute;
+    width: 720px;
+    max-width: 100%;
+    height: 831px;
+    left: 910px;
+    top: 130px;
+    background-image: url(/assets/images/welcome-image.png);
+    background-repeat: no-repeat;
+}
+.welcome-page .book .btn-book{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 129px;
+    top: 610px;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#484C7F;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.welcome-page .book .btn-book:focus{
+    outline: none;
+}
+
+.welcome-page .book .btn-book:hover {
+    transform: scale(1.1);
+}
+
+.ellipses{
+    position: absolute;
+    top: 680px;
+    height: 400px;
+}
+.ellipses .ellipse1{
+    background-color: #484C7F;
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    left:-600px;
+}
+.ellipses .ellipse2{
+    background-color: #484C7F;
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    left:-600px;
+    top: 10px;
+}
+
+/* about us */
+.about-us{
+ position: absolute;
+ top: 1080px;
+ display: flex;
+  width: 100%;
+  height: 1024px;
+  background: #E5E5E5;
+
+}
+.about-us .about-img{
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    left: 0px;
+    top: 30px;
+    background-image: url(/assets/images/about_us.png);
+    background-repeat: no-repeat;
+}
+.about-us .about-header{
+    position: absolute;
+    width: 488px;
+    height: 114px;
+    left: 800px;
+    top: 100px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150px;
+    color: #AC8DAF;
+}
+.about-us .title .right-bar{
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 360px;
+    top: 145px;
+    background: #484C7F;
+    border-radius: 20px;
+}
+.about-us .about-desc{
+    
+    position: absolute;
+    width: 509px;
+    height: 108px;
+    left: -10px;
+    top: 180px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+}
+.about-us .btn-contact{
+    width: 80px; 
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left:-10px;
+    top: 320px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: #484C7F;
+    border-radius: 10px;
+    color: #fff;
+}
+.btn-contact:focus{
+    outline: none;
+}
+
+
+
+
+@media(max-width:760px) {
+   body{
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+
+   }
+   .welcome-page {
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+   .welcome-page .welcome-title{
+       display: block;
+       position:absolute;
+       left: 100px;
+       top: 10px;
+       font-size:20px;
+   }
+   .welcome-page .title .right-bar {
+       position: absolute;
+       left: 100px;
+       top: 120px;
+       width: 100px;
+    
+   }
+   .welcome-page .hotel-desc{
+       display: block;
+       width: 100%;
+       position: absolute;
+       top: 140px;
+       left: 3px;
+       padding-right: 10px;
+       font-size: 11px;
+   }
+   .welcome-page .hotel-image {
+       display: block;
+       width: 100%;
+       position: absolute;
+       left: 0px;
+       top: 300px;
+       height: 300px;
+   }
+   /* book button */
+   .welcome-page .book .btn-book {
+       display: block;
+       position:absolute;
+       top: 93%;
+       left: 70px;
+   }
+   /* about */
+   .about-us {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   }
+   .about-us .about-img {
+       display: block;
+       position: absolute;
+       height: 600px;
+       width: 100%;
+       top: 600px;
+   }
+   .about-us .about-title{
+    display: block;
+    position:absolute;
+    left: 300px;
+    top: 1000px;
+    font-size: 12px;
+    font-size:20px;
+   }
+   .about-us .about-desc{
+       position:absolute;
+       display: flex;
+       justify-content: flex-start;
+       top:1100px;
+       left: -100%;
+       align-items: center;
+
+   }
+}
