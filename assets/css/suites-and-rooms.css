@@ -31,9 +31,9 @@ section {
 
 
 .bg-img {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-right: -25%;
-    margin-left: 15%;
+    margin-left: 20%;
     height: 50vh;
 }
 
@@ -91,9 +91,10 @@ section {
     background: #FFFFFF;
     border: 1px solid #484C7F;
     border-radius: 10px 0 0 10px;
-    padding: 12px 200px 12px 30px;
+    padding: 10px 200px 10px 30px;
     font-size: 14px;
     outline: none;
+    line-height: 20px;
 }
 .rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     background: #FFFFFF;
@@ -167,7 +168,7 @@ section {
 }
 
 .container {
-    margin-top: 150px;
+    margin-top: -40px; 
 }
   .card-body {
     background-color: #FAEEF2;
@@ -354,8 +355,10 @@ section {
 }
 
 .container {
-    margin-top: 150px;
+   margin-top: -40px;
 }
+
+
   .card-body {
     width: 80%;
     height: 75vh;
@@ -521,8 +524,9 @@ section {
 }
 
 .container {
-    margin-top: 150px;
+   margin-top: -40px;
 }
+
   .card-body {
     width: 80%;
     height: 75vh;
@@ -693,7 +697,7 @@ section {
 }
 
 .container {
-    margin-top: 150px;
+   margin-top: -40px;
 }
   .card-body {
     width: 80%;
@@ -784,7 +788,7 @@ section {
 }
 
 section {
-    height: 110vh;
+    height: 155vh;
 }
 
 .section-header {
@@ -872,7 +876,7 @@ section {
 }
 
 .container {
-    margin-top: 150px;
+   margin-top: -40px;
 }
   .card-body {
     width: 80%;
@@ -1004,14 +1008,6 @@ section {
 }
 
    }
-
-
-
-
-
-
-
-
 
 
  
