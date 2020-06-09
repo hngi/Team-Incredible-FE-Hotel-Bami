@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+/* SUITES & ROOM SECTION */
+
 * {
     padding: 0;
     margin: 0; 
@@ -85,62 +86,19 @@ section {
     outline: none;
     animation-name: slideInLeft;
     animation-duration: 2s;
-=======
-
-/*section for suites-rooms css*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.suites-rooms-trending .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.suites-rooms-trending [class*="col-"] {
-    float: left;
-}
-.suites-rooms-trending .col-1 {width: 8.33%;}
-.suites-rooms-trending .col-2 {width: 16.66%;}
-.suites-rooms-trending .col-3 {width: 25%;}
-.suites-rooms-trending .col-4 {width: 33.33%;}
-.suites-rooms-trending .col-5 {width: 41.66%;}
-.suites-rooms-trending .col-6 {width: 50%;}
-.suites-rooms-trending .col-7 {width: 58.33%;}
-.suites-rooms-trending .col-8 {width: 66.66%;}
-.suites-rooms-trending .col-9 {width: 75%;}
-.suites-rooms-trending .col-10 {width: 83.33%;}
-.suites-rooms-trending .col-11 {width: 91.66%;}
-.suites-rooms-trending .col-12 {width: 100%;}
-
-.rooms-and-suites-search-container {
-    width: 80%;
-    margin: auto;
->>>>>>> 3ceebf8e885bf79bb2937afead84406369357264
 }
 .rooms-and-suites-search-container .search-input {
     background: #FFFFFF;
     border: 1px solid #484C7F;
-<<<<<<< HEAD
     border-radius: 10px 0 0 10px;
     padding: 12px 200px 12px 30px;
     font-size: 14px;
     outline: none;
-=======
-    box-sizing: border-box;
-    /*border-radius: 10px 0 0 10px;*/
-    padding: 12px;
-    font-size: 14px;
->>>>>>> 3ceebf8e885bf79bb2937afead84406369357264
 }
 .rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     background: #FFFFFF;
     border: 1px solid #484C7F;
     color: #484C7F;
-<<<<<<< HEAD
     padding: 12px 50px 12px 30px;
     min-height: 42px;
     font-size: 14px;
@@ -300,10 +258,10 @@ section {
   
 
   
-  
+/* SUITES AND ROOM MOBILE RSPONSIVENESS */
 
 /* For Desktops */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
     
 .container {
     display: inline-flex;
@@ -464,7 +422,6 @@ section {
 .arrow {
   display: none;
 }
-
     
   
 }
@@ -992,10 +949,6 @@ section {
   display: none;
 }
 
-
-
-
-     
    }
 
    /*Smaller phones: from 0 to 370px */
@@ -1050,23 +1003,50 @@ section {
     font-size: 20px;
 }
 
-    
    }
 
 
 
-=======
-    padding: 12px;
-    min-height: 42px;
-    font-size: 14px;
-    cursor: pointer;
+
+
+
+
+
+
+
+ 
+
+
+
+/* TRENDING SECTION */
+
+.suites-rooms-trending .row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
+.suites-rooms-trending [class*="col-"] {
+    float: left;
+}
+.suites-rooms-trending .col-1 {width: 8.33%;}
+.suites-rooms-trending .col-2 {width: 16.66%;}
+.suites-rooms-trending .col-3 {width: 25%;}
+.suites-rooms-trending .col-4 {width: 33.33%;}
+.suites-rooms-trending .col-5 {width: 41.66%;}
+.suites-rooms-trending .col-6 {width: 50%;}
+.suites-rooms-trending .col-7 {width: 58.33%;}
+.suites-rooms-trending .col-8 {width: 66.66%;}
+.suites-rooms-trending .col-9 {width: 75%;}
+.suites-rooms-trending .col-10 {width: 83.33%;}
+.suites-rooms-trending .col-11 {width: 91.66%;}
+.suites-rooms-trending .col-12 {width: 100%;}
 
 .suites-rooms-trending .trending-top {
     background-color: #FFFFFF;
 }
 .suites-rooms-trending .treading-btm-bg {
-    background-color: #E5E5E5;
+    background-color: #FAEEF2;
     padding: 55px 0;
 }
 
@@ -1081,7 +1061,7 @@ section {
     font-weight: 600;
     font-size: 36px;
     color: #484C7F;
-    margin: 0 0 27px 0;
+    margin: 20px 0 27px 0;
 }
 .suites-rooms-trending .trending-top .trending-title h1 img {
 }
@@ -1129,7 +1109,7 @@ section {
     min-width: 65px;
 }
 
-/*suites and rooms mobile view css*/
+/* TRENDING MOBILE RESPONSIVENESS */
 
 @media screen and (max-width: 360px) {
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .room-img img {
@@ -1232,4 +1212,4 @@ section {
         margin: auto;
     }
 }
->>>>>>> 3ceebf8e885bf79bb2937afead84406369357264
+
