@@ -61,6 +61,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -68,7 +69,6 @@ form {
 }
 
 input[type="text"] {
-    border: none;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     padding: 0.625rem !important;
@@ -79,7 +79,8 @@ input[type="text"] {
     background: #484C7F;
     width: 350px;
     border: 2px solid #AC8DAF;
-
+    outline: none;
+    color: #fff
 }
 
 ::placeholder {
@@ -223,6 +224,15 @@ input[type="submit"] {
 
     form {
         flex-wrap: nowrap;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+
+    input[type="submit"] {
+        width: 35% !important;
+
     }
 }
 
