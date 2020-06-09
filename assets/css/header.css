@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgba(221, 182, 198, 0.2);
+}
+
+.logo {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.logo-left {
+  color: #484c7f;
+}
+
+.logo-right {
+  color: #484c7f;
+  opacity: 0.5;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.nav-links .nav-link {
+  text-decoration: none;
+  color: #484c7f;
+  opacity: 0.5;
+  position: relative;
+}
+
+#current-page,
+.nav-links .nav-link:hover {
+  color: #484c7f;
+  opacity: 1;
+}
+
+.nav-links .nav-link:hover::before,
+#current-page::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ddb6c6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 6px;
+  left: -12px;
+}
+
+.hamburger {
+  display: none;
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 28px;
+    height: 2px;
+    background-color: #484c7f;
+    margin: 5px;
+  }
+
+  .hamburger .line:nth-child(1) {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    width: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-open {
+    position: absolute;
+    padding-left: 6%;
+    height: 25vh;
+    top: 10vh;
+    background-color: rgba(221, 182, 198, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 6%;
+  }
+
+  .logo {
+    width: 70%;
+  }
+}
