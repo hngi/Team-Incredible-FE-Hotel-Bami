@@ -108,15 +108,10 @@ html {
 }
 
 .home-welcome .home-welcome-left-container {
-    padding: 6em 8em;
+    padding: 5em 7em;
 }
 
 /*mobile view*/
-@media screen and (min-width: 201px) and (max-width: 451px) {
-    .home-welcome .home-welcome-left-container {
-        padding: 12px 6px;
-    }
-}
 @media screen and (min-width: 701px) and (max-width: 850px) {
     .home-welcome .home-welcome-left-container {
         padding: 2em 3em;
@@ -141,17 +136,25 @@ html {
 .home-welcome .home-welcome-title h1 {
     font-style: normal;
     font-weight: bold;
-    font-size: 71px;
+    font-size: 64px;
     color: #484C7F;
     margin: 10px 2px;
 }
 /*mobile view*/
-@media screen and (max-width: 497px) {
+@media screen and (min-width: 331px) and (max-width: 430px) {
+    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .home-welcome-title h1 {
+        font-size: 38px;
+        color: #484C7F;
+        margin: 2px 0;
+    }
+}
+@media screen and (min-width: 431px) and (max-width: 510px) {
     .home-welcome .col-7 {width: 100%;}
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
         font-weight: bold;
-        font-size: 27px;
+        font-size: 48px;
         color: #484C7F;
         margin: 6px 0;
     }
@@ -160,12 +163,12 @@ html {
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
         font-weight: bold;
-        font-size: 37px;
+        font-size: 35px;
         color: #484C7F;
         margin: 6px 0;
     }
 }
-@media screen and (min-width: 701px) and (max-width: 850px) {
+@media screen and (min-width: 778px) and (max-width: 850px) {
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
         font-weight: bold;
@@ -193,6 +196,55 @@ html {
     font-size: 20px;
     line-height: 27px;
     color: rgba(72, 76, 127, 0.74);
+}
+@media screen and (max-width: 346px) {
+    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .home-welcome-title h1 {
+        font-size: 28px;
+        color: #484C7F;
+        margin: -6px 0 0 0;
+    }
+    .home-welcome .home-welcome-text {
+        font-size: 12px;
+    }
+    .home-welcome .home-welcome-title h1 img {
+        width: 48px;
+    }
+}
+@media screen and (min-width: 316px) and (max-width: 346px) {
+    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .home-welcome-left-container {
+        padding: 1em 2em;
+    }
+    .home-welcome .home-welcome-title h1 {
+        font-size: 30px;
+        color: #484C7F;
+        margin: -6px 0 0 0;
+    }
+    .home-welcome .home-welcome-text {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 346px) and (max-width: 383px) {
+    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .home-welcome-title h1 {
+        font-size: 30px;
+        color: #484C7F;
+        margin: -6px 0 0 0;
+    }
+    .home-welcome .home-welcome-text {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 383px) and (max-width: 512px) {
+    .home-welcome .home-welcome-text {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 513px) and (max-width: 792px) {
+    .home-welcome .home-welcome-text {
+        font-size: 16px;
+    }
 }
 .home-welcome .home-welcome-book-now-btn button {
     width: 150px;
@@ -257,19 +309,15 @@ html {
         width: 100%;
     }
     .home-welcome .home-welcome-left-container {
-        padding: 3em 4em;
+        padding: 2em 3em;
     }
 
-    .home-welcome .home-welcome-title h1 {
-        font-size: 58px;
-        margin: 10px 2px;
-    }
+    /*.home-welcome .home-welcome-title h1 {*/
+        /*font-size: 58px;*/
+        /*margin: 10px 2px;*/
+    /*}*/
     .content {
         padding: 0 12px 0 12px;
-    }
-    .home-welcome .home-welcome-text {
-        font-size: 20px;
-        line-height: 27px;
     }
     .home-welcome .home-welcome-book-now-btn button {
         width: 150px;
