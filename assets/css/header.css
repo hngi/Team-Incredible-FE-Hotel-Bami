@@ -11,6 +11,9 @@
   align-items: center;
   min-height: 10vh;
   background-color: rgba(221, 182, 198, 0.2);
+  z-index: 100;
+  position: relative;
+  padding: 0 5%;
 }
 
 .logo {
@@ -19,6 +22,7 @@
   font-size: 24px;
   line-height: 36px;
   cursor: pointer;
+  width: 60%;
 }
 
 .logo-left {
@@ -79,6 +83,10 @@
   .nav-links {
     width: 60%;
   }
+
+  .logo {
+    width: 30%;
+  }
 }
 
 /*
@@ -113,7 +121,7 @@
 
   .nav-open {
     position: absolute;
-    padding-left: 6%;
+    padding-left: 12%;
     height: 25vh;
     top: 10vh;
     background-color: rgba(221, 182, 198, 0.2);
