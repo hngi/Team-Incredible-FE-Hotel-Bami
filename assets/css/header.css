@@ -47,14 +47,14 @@
   position: relative;
 }
 
-#current-page,
+.nav-links .active,
 .nav-links .nav-link:hover {
   color: #484c7f;
   opacity: 1;
 }
 
 .nav-links .nav-link:hover::before,
-#current-page::before {
+.nav-links .active::before {
   content: "";
   display: block;
   width: 10px;
