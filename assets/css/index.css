@@ -8,6 +8,7 @@
 }
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +17,12 @@
 html {
     scroll-behavior: smooth !important;
     font-family: poppins;
+    overflow-x: hidden;
 }
 
 .container {
-    padding: 0 1em 2em;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 
 /* customization for welcome section goes here */
@@ -37,7 +39,7 @@ html {
 
 .welcome-text {
     margin-top: 35px;
-    color:#484c7f
+    color: #484c7f
 }
 
 .welcome-title {
@@ -45,7 +47,7 @@ html {
     font-size: 30px;
 }
 
-.flexy{
+.flexy {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,17 +76,19 @@ html {
 
 /* About section */
 .about-sec {
+
     display: flex;
-    background: var(--aux-color);
+    width: 100%;
+
 }
 
 .flexy-about {
+    width: 70%;
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 45px;
-    margin-top: 10px;
+    padding: 7px;
+    margin-top: 5px;
 }
 
 .about-text {
@@ -92,8 +96,9 @@ html {
 }
 
 .about-title {
-    color: rgb(224, 134, 171);
-    font-size: 30px;
+    color: #AC8DAF;
+    font-size: 5rem;
+    font-weight: bold;
 }
 
 .about-title .comp {
@@ -101,7 +106,7 @@ html {
 }
 
 .about-image img {
-    width: 320px;
+    width: 95%;
     height: auto;
 }
 
@@ -111,26 +116,26 @@ html {
     background: #484c7f;
     border-radius: 8px;
     height: 35px;
-    width: 110px;
-    padding: 8px;
+    width: 120px;
+    padding: 10px;
     margin-top: 40px;
 }
 
 /* Special Section */
 .special-sec {
     display: flex;
-    background: rgb(238, 216, 225);
+    background: #f5eaef;
     justify-content: space-around;
 }
 
 .special-img .aside-des {
     background: rgb(100, 103, 145);
     margin-top: -7px;
-    width: 320px;
+    width: 100%;
 }
 
 .special-img img {
-    width: 320px;
+    width: 100%;
 }
 
 .bar-two {
@@ -149,7 +154,8 @@ html {
 
 .special-title {
     color: rgb(224, 134, 171);
-    font-size: 30px;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .special-title .comp {
@@ -195,7 +201,9 @@ html {
     flex-direction: column;
     justify-content: center;
     padding: 45px;
+    width: 50%;
 }
+
 /* Services section */
 
 .services-sec {
@@ -259,12 +267,12 @@ html {
 }
 
 .massage-display {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   align-content: center;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .rooms-and-suites-search-container {
@@ -288,8 +296,7 @@ html {
     cursor: pointer
 }
 
-.rooms-and-suites-search-container 
-.check-out-btn,
+.rooms-and-suites-search-container .check-out-btn,
 .check-in-btn {
     background: white;
     border: 1px solid #484c7f;
@@ -302,7 +309,7 @@ html {
 }
 
 .massage-display img {
-     width: 350px;
+    width: 350px;
 }
 
 
@@ -345,7 +352,7 @@ html {
     height: 10.18px;
     left: 15%;
     top: 1900px;
-    background: #FFFFFF;
+    background: rgb(110, 105, 105);
     border-radius: 20px;
 }
 
@@ -361,3 +368,62 @@ html {
     margin-left: -50%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .about-sec {
+
+        display: block;
+
+    }
+
+    .about-title {
+
+        font-size: 3.5rem;
+
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .flexy-about {
+        width: 100%;
+    }
+
+    .details {
+
+        height: 100%;
+        width: 100%;
+        margin-top: 2px;
+
+    }
+
+    .massage-display img {
+        display: none;
+    }
+
+    .stories-img {
+        display: none;
+    }
+
+    .stories-title {
+
+        height: 100%;
+
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .flexy-special {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 45px;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .special-sec {
+        display: block;
+    }
+}
