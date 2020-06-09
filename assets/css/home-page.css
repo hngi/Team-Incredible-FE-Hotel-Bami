@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+/* body */
+body{
+   margin: 0;
+   padding: 0;
+}
+/* welcome-page */
+.welcome-page{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #DDB6C6;
+    opacity: 1.0;
+}
+.welcome-header .welcome-text{
+position: absolute;
+width: 488px;
+height: 114px;
+left: 100px;
+top: 338px;
+opacity: 1.0;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 150px;
+color: #484C7F;
+}
+.welcome-header .right-bar{
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 570px;
+    top: 510px;
+    background: #AC8DAF;
+    border-radius: 20px;
+}
+.welcome-desc p{
+    position: absolute;
+    width: 509px;
+    height: 108px;
+    left: 112px;
+    top: 510px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+}
+.welcome-page .welcome-img{
+    position: absolute;
+    width: 720px;
+    height: 831px;
+    left: 920px;
+    top: 130px;
+}
+.book .btn-book{
+    position: absolute;
+    width: 127px;
+    height: 50px;
+    left: 129px;
+    top: 648px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color:#484C7F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.book .btn-book:focus{
+    outline: none;
+}
+/* about-page */
+.about-page{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 1090px;
+    top: 1040px;
+}
+.about-header .about-text{
+    position: absolute;
+    width: 488px;
+    height: 114px;
+    left: 800px;
+    top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150px;
+    color: #AC8DAF;
+}
+.about-header .right-bar{
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 1200px;
+    top: 200px;
+    background: #AC8DAF;
+    border-radius: 20px;
+}
+.about-page .about-desc p{
+    position: absolute;
+    width: 509px;
+    height: 189px;
+    left: 800px;
+    top: 200px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+}
+.contact-btn button{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 810px;
+    top: 410px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color:#484C7F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.contact-btn button:focus{
+    outline: none;
+}
