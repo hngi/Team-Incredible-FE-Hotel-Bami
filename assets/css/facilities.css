@@ -423,8 +423,9 @@ background-position: 100%;
             }
             
             .gym-text{
-                padding-right: 150px;
+                padding-right: 50px;
                 padding-top: 100px;
+                padding-left: 50px;
             }
         
             .body-text{
