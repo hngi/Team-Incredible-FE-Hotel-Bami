@@ -1,0 +1,448 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.fac-1, .fac-2 {
+    padding-left: 100px;
+}
+
+.fac-1 {
+    background-color: #F9EFFA;
+    background-blend-mode: lighten;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fac-1 .img-1 {
+    position: absolute;
+    right: 1px;
+    width: 150px;
+    top: 400px;
+}
+
+.fac-1 .img-2 {
+    position: absolute;
+    right: 1px;
+    width: 100px;
+    top:480px;
+}
+
+p {
+    color: rgba(72, 76, 127, 0.74);
+    font-weight: 600;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.fac-header {
+    color: #484C7F;
+    font-size: 80px;
+    line-height: 130px;
+    padding: 60px 0;
+}
+
+.fac-header span {
+    color: #DDB6C6;
+}
+
+.fac-1 button {
+    padding: 20px;
+    background-color: #484C7F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    margin: 60px 0;
+    font-size: medium;
+}
+
+.fac-img {
+    width: 100%;
+    /* height:500px; */
+}
+
+.fac-2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.fac2-header1 {
+    color: #AC8DAF;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+    padding: 60px 0;
+}
+
+.fac2-header2 {
+    color: #DDB6C6;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+}
+.fac2-img{
+background-image: url("../images/fac-images/fac2-img1.png");
+background-repeat: no-repeat;
+background-position: 100%;
+}
+.fac-2 p {
+    color: rgba(72, 76, 127, 0.74);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.fac-2 .img-3{
+    position: absolute;
+    left: 1px;
+     width: 100px;
+    top: 1350px;
+}
+.fac-2 .img-4{
+    position: absolute;
+    left: 1px;
+    width: 120px;
+    top: 1450px;
+}
+.fac-3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9EFFA;
+    height: 900px;
+    }
+
+.fac3-header1 {
+    color: #484C7F;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+    padding: 60px 0;
+}
+.fac3-img-body{
+    position: relative;
+    overflow:auto;
+}
+.fac3-img {
+    position: absolute;
+    left:19px;
+    height: 80%;
+    width: 60%;   
+}
+.fac-3 .img-5{
+    position: absolute;
+    right: 1px;
+    width: 100px;
+    top:2240px;
+}
+.fac-3 .img-6{
+    position: absolute;
+    right: 1px;
+    width: 100px;
+    top:2290px;
+}
+.restaurant-section{
+    padding-bottom: 100px;
+}
+
+.restaurant-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  background-image: url("../images/fac-images/ellipse4.png"), url("../images/fac-images/ellipse3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 100%, 0% 100%;
+}
+
+.restaurant-title{
+    font-style: normal;
+   font-weight: bold;
+   line-height: 150px;
+   color: #AC8DAF;
+   font-size: 50px;
+   }
+
+   .body-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+   }
+.restaurant-image img{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+
+.gym-section{
+     background-color: rgb(238, 232, 239);
+}
+
+.gym-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, 100% 85%; 
+    padding-bottom: 100px;
+
+}
+
+.gym-title{
+    font-style: normal;
+   font-weight: bold;
+   line-height: 150px;
+    font-size: 50px;
+   color: #484C7F;
+   }
+
+.gym-image img{
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+/*tabs*/
+@media only screen and (max-width: 769px) {
+    .fac-1, .fac-2 {
+        padding-left: 10px;
+    }
+    .fac-1 .img-1 {
+        width: 150px;
+        top: 100px;
+    }
+    
+    .fac-1 .img-2 {
+        width: 100px;
+        top:190px;
+    }
+    .fac-header, .fac2-header1, .fac3-header1{
+        font-size: 30px;
+    }
+    .fac-2 .img-3{
+        
+         width: 60px;
+        top: 1460px;
+    }
+    .fac-2 .img-4{
+        
+        width: 80px;
+        top: 1520px;
+    }
+        .fac3-img-body{
+            position: relative;
+        }
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+        .fac-1, .fac-2{
+            padding-left: 10px;
+        }
+        .fac-header, .fac2-header1, .fac3-header1{
+            font-size: 30px;
+        }
+        .fac-1 .img-1 {
+            width: 80px;
+            top: 700px;
+        }
+        
+        .fac-1 .img-2 {
+            position: absolute;
+            right: 1px;
+            width: 50px;
+            top:760px;
+        }
+        .fac-2 {
+    display: grid;
+}
+.fac-2 .img-3{
+     width: 50px;
+    top: 1620px;
+}
+.fac-2 .img-4{
+    width: 80px;
+    top: 1670px;
+}
+        .fac-3 {
+            grid-template-columns: 100%;
+            padding-top:0;
+            padding-bottom:0;
+            }
+            .spa{
+                padding-left: 10px;
+            }
+            .fac3-img {
+                /* display: none; */
+                position: relative;
+                left: 0;
+                height: 100%;
+                width: 100%;   
+            }
+            .fac-3 .img-5{
+                
+                width: 80px;
+                top:2280px;
+            }
+            .fac-3 .img-6{
+                
+                width: 80px;
+                top:2340px;
+            }
+        }
+        /*smallest screens */
+        @media only screen and (max-width: 320px) {
+            .fac-2 {
+                grid-template-columns: 100%;
+            }
+            .fac2-img{
+                background-image: none;
+                }
+            .fac-2 .img-3{
+                width: 40px;
+               top: 1760px;
+           }
+           .fac-2 .img-4{
+               width: 70px;
+               top: 1800px;
+           }
+           .fac-3 .img-5{
+                
+            width: 60px;
+            top:2400px;
+        }
+        .fac-3 .img-6{
+            
+            width: 60px;
+            top:2450px;
+        }
+        } 
+
+        * restaurant and gym section */
+        .restaurant-section{
+            padding-bottom: 100px;
+        }
+        
+        .restaurant-container{
+          display: flex;
+          flex-direction: column;
+          justify-items: center;
+          text-align: center;
+          background-image: url("../assets/images/fac-images/images/ellipse4.png"), url("../assets/images/fac-images/images/ellipse3.png");
+            background-repeat: no-repeat, no-repeat;
+            background-position: left bottom, 0% 80%;
+        }
+        
+        .restaurant-title{
+            font-style: normal;
+           font-weight: bold;
+           line-height: 150px;
+           color: #AC8DAF;
+           font-size: 50px;
+           }
+        
+           .body-text{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            color: rgba(72, 76, 127, 0.74);
+           }
+        .restaurant-image img{
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            padding-top: 50px;
+        }
+        
+        
+        .gym-section{
+             background-color: rgb(238, 232, 239);
+        }
+        
+        .gym-container{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1em;
+            /* display: flex;
+            flex-direction: column;
+            justify-items: center;
+            text-align: center; */
+            background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
+            background-repeat: no-repeat, no-repeat;
+            background-position: right bottom, 100% 85%; 
+            padding-bottom: 100px;
+        
+        }
+        
+        .gym-title{
+            font-style: normal;
+           font-weight: bold;
+           line-height: 150px;
+            font-size: 50px;
+           color: #484C7F;
+           }
+        
+        .gym-image img{
+            padding-top: 100px;
+            width: 100%;
+            height: auto;
+        }
+        
+            /* mobile for gym and restaurant */
+         @media screen and (min-width:1020px){
+         
+            .gym-container{
+                padding-top: 100px;
+                padding-bottom: 150px;
+        
+                 display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            } 
+            .restaurant-container{
+             display: grid;
+             grid-template-columns: 60% 40%;
+             gap: 1em;
+             margin-top: 100px;
+            }
+            .restaurant-text{
+                padding-top: 100px;
+                padding-left: 150px;
+            }
+            
+            .gym-text{
+                padding-right: 150px;
+                padding-top: 100px;
+            }
+        
+            .body-text{
+                text-align: left;
+                font-size: 1.125em;
+                font-style: bold;
+                font-weight: 600;
+                color: rgba(72, 76, 127, 0.74);
+                display: block;
+                width: 100%;
+                max-width: 509px;
+                line-height: 27px
+            }
+        
+            .gym-title, .restaurant-title{
+                font-size: 5vw;
+            }
+         }
