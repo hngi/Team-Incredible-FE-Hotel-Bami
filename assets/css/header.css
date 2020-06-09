@@ -116,7 +116,10 @@
   }
 
   .nav-links {
-    display: none;
+    transition: opacity .1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
   }
 
   .nav-open {
@@ -129,9 +132,14 @@
     flex-direction: column;
     width: 100%;
     padding-bottom: 6%;
+    opacity: 1;
   }
 
   .logo {
     width: 70%;
+  }
+
+  .push-down {
+    margin-top: 25vh;
   }
 }
