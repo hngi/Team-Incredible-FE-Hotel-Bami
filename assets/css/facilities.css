@@ -98,15 +98,14 @@ background-position: 100%;
 .fac-2 .img-3{
     position: absolute;
     left: 1px;
-    width: 70px;
-    top: 1493px;
-
+     width: 100px;
+    top: 1350px;
 }
 .fac-2 .img-4{
     position: absolute;
     left: 1px;
-    width: 100px;
-    top: 1560px;
+    width: 120px;
+    top: 1450px;
 }
 .fac-3 {
     display: grid;
@@ -139,13 +138,13 @@ background-position: 100%;
     position: absolute;
     right: 1px;
     width: 100px;
-    top: 2356px;
+    top:2240px;
 }
 .fac-3 .img-6{
     position: absolute;
     right: 1px;
     width: 100px;
-    top:2412px;
+    top:2290px;
 }
 .restaurant-section{
     padding-bottom: 100px;
@@ -192,7 +191,7 @@ background-position: 100%;
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("/assets/images/fac-images/images/ellipse5.png"), url("/assets/images/fac-images/images/ellipse6.png");
+    background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right bottom, 100% 85%; 
     padding-bottom: 100px;
@@ -208,7 +207,7 @@ background-position: 100%;
    }
 
 .gym-image img{
-    /* padding-top: 50px; */
+    padding-top: 100px;
     width: 100%;
     height: auto;
 }
@@ -333,7 +332,7 @@ background-position: 100%;
         }
         } 
 
-         /* restaurant and gym section  */
+        * restaurant and gym section */
         .restaurant-section{
             padding-bottom: 100px;
         }
@@ -343,7 +342,7 @@ background-position: 100%;
           flex-direction: column;
           justify-items: center;
           text-align: center;
-          background-image: url("/assets/images/fac-images/ellipse4.png"), url("/assets/images/fac-images/ellipse3.png");
+          background-image: url("../assets/images/fac-images/images/ellipse4.png"), url("../assets/images/fac-images/images/ellipse3.png");
             background-repeat: no-repeat, no-repeat;
             background-position: left bottom, 0% 80%;
         }
@@ -376,9 +375,14 @@ background-position: 100%;
         }
         
         .gym-container{
-            display: flex;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1em;
+            /* display: flex;
             flex-direction: column;
-            background-image: url("/assets/images/fac-images/ellipse5.png"), url("/assets/images/fac-images/ellipse6.png");
+            justify-items: center;
+            text-align: center; */
+            background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
             background-repeat: no-repeat, no-repeat;
             background-position: right bottom, 100% 85%; 
             padding-bottom: 100px;
@@ -396,7 +400,6 @@ background-position: 100%;
         .gym-image img{
             padding-top: 100px;
             width: 100%;
-            max-width: 500px;
             height: auto;
         }
         
@@ -419,13 +422,12 @@ background-position: 100%;
             }
             .restaurant-text{
                 padding-top: 100px;
-                /* padding-left: 20px; */
+                padding-left: 150px;
             }
             
             .gym-text{
-                padding-right: 50px;
+                padding-right: 150px;
                 padding-top: 100px;
-                padding-left: 50px;
             }
         
             .body-text{
