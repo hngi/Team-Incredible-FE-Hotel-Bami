@@ -191,7 +191,7 @@ background-position: 100%;
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
+    background-image: url("/assets/images/fac-images/images/ellipse5.png"), url("/assets/images/fac-images/images/ellipse6.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right bottom, 100% 85%; 
     padding-bottom: 100px;
@@ -207,7 +207,7 @@ background-position: 100%;
    }
 
 .gym-image img{
-    padding-top: 100px;
+    /* padding-top: 50px; */
     width: 100%;
     height: auto;
 }
@@ -332,7 +332,7 @@ background-position: 100%;
         }
         } 
 
-        * restaurant and gym section */
+         /* restaurant and gym section  */
         .restaurant-section{
             padding-bottom: 100px;
         }
@@ -342,7 +342,7 @@ background-position: 100%;
           flex-direction: column;
           justify-items: center;
           text-align: center;
-          background-image: url("../assets/images/fac-images/images/ellipse4.png"), url("../assets/images/fac-images/images/ellipse3.png");
+          background-image: url("/assets/images/fac-images/ellipse4.png"), url("/assets/images/fac-images/ellipse3.png");
             background-repeat: no-repeat, no-repeat;
             background-position: left bottom, 0% 80%;
         }
@@ -375,14 +375,9 @@ background-position: 100%;
         }
         
         .gym-container{
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 1em;
-            /* display: flex;
+            display: flex;
             flex-direction: column;
-            justify-items: center;
-            text-align: center; */
-            background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
+            background-image: url("/assets/images/fac-images/ellipse5.png"), url("/assets/images/fac-images/ellipse6.png");
             background-repeat: no-repeat, no-repeat;
             background-position: right bottom, 100% 85%; 
             padding-bottom: 100px;
@@ -400,6 +395,7 @@ background-position: 100%;
         .gym-image img{
             padding-top: 100px;
             width: 100%;
+            max-width: 500px;
             height: auto;
         }
         
@@ -422,7 +418,7 @@ background-position: 100%;
             }
             .restaurant-text{
                 padding-top: 100px;
-                padding-left: 150px;
+                /* padding-left: 20px; */
             }
             
             .gym-text{
