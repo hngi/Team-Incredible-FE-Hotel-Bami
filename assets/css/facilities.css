@@ -98,14 +98,15 @@ background-position: 100%;
 .fac-2 .img-3{
     position: absolute;
     left: 1px;
-     width: 100px;
-    top: 1350px;
+    width: 70px;
+    top: 1493px;
+
 }
 .fac-2 .img-4{
     position: absolute;
     left: 1px;
-    width: 120px;
-    top: 1450px;
+    width: 100px;
+    top: 1560px;
 }
 .fac-3 {
     display: grid;
@@ -138,13 +139,13 @@ background-position: 100%;
     position: absolute;
     right: 1px;
     width: 100px;
-    top:2240px;
+    top: 2356px;
 }
 .fac-3 .img-6{
     position: absolute;
     right: 1px;
     width: 100px;
-    top:2290px;
+    top:2412px;
 }
 .restaurant-section{
     padding-bottom: 100px;
