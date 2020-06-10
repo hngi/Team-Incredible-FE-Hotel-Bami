@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e6862ba3960d64ea0917916fea5d09526454002
 * {
     padding: 0;
     margin: 0;
@@ -1014,6 +1017,7 @@ section {
 
 /*trending section*/
 
+<<<<<<< HEAD
 =======
 
 /*section for suites-rooms css*/
@@ -1024,6 +1028,8 @@ section {
 }
 
 >>>>>>> feat: created trending section of suites-and-rooms.html
+=======
+>>>>>>> 5e6862ba3960d64ea0917916fea5d09526454002
 .suites-rooms-trending .row::after {
     content: "";
     clear: both;
