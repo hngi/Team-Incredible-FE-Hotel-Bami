@@ -928,6 +928,9 @@ html {
         font-size: 26px;
         text-align: center;
     }
+    .home-page-our-services .our-services-title h1 img {
+        width: 30px;
+    }
 }
 
 @media screen and (min-width: 440px) and (max-width: 540px) {
@@ -935,12 +938,18 @@ html {
         font-size: 40px;
         text-align: center;
     }
+    .home-page-our-services .our-services-title h1 img {
+        width: 45px;
+    }
 }
 
 @media screen and (min-width: 540px) and (max-width: 800px) {
     .home-page-our-services .our-services-title h1 {
         font-size: 60px;
         text-align: center;
+    }
+    .home-page-our-services .our-services-title h1 img {
+        width: 55px;
     }
 }
 
@@ -963,7 +972,7 @@ html {
     padding: 12px;
     width: 25%;
     min-height: 42px;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     outline: none;
 }
