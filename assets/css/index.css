@@ -585,27 +585,86 @@ html {
     width: 100%;
 }
 
+
+
+
   .card-body {
     background-color: #FAEEF2;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 80%;
-    height: 97vh;
+    width: 100%;
+    height: 90vh;
 }
 
 .card-title {
     color: #B08CAC;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 700;
     padding: 40px 60px;
-    margin-left: 110px;
     letter-spacing: 2px;
+}
+
+.card-text {
+    color: #43467C;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 
 .card2 {
     margin-top: 70px;
     margin-left: 80px;
+}
+
+    .suite-images {
+        height: 60vh;
+    }
+
+    
+
+.tag-label {
+    background-color: #43467C;
+    color: #fff;
+    width: 32%;
+    padding: 15px;
+    position: relative;
+    top: -368px;
+    left: 102px;
+    z-index: 9999;
+}
+
+.flex-direction {
+    display: flex;
+}
+
+
+
+.arrow {
+    height: 10vh;
+    width: 50%;
+    margin-top: 90px;
+    margin-left: -20px;
+}
+
+
+.arrow-left {
+    margin-right: 5px;
+}
+
+.arrow-right {
+    margin-left: 5px;
+}
+
+.text3 {
+    font-size: .85em;
+    color: #B08CAC;
+}
+
+.text4 {
+    font-size: .75em;
+    color: #484C7F;
+    font-weight: 300;
+
 }
 
 
@@ -625,9 +684,13 @@ html {
 
 .special-title {
     color: rgb(224, 134, 171);
-    font-size: 56px;
+    font-size: 30px;
     font-weight: bold;
 }
+
+
+
+
 
 @media screen and (min-width: 200px) and (max-width: 365px) {
     .special-title {
@@ -699,6 +762,7 @@ html {
     justify-content: center;
     padding: 45px;
     width: 50%;
+    margin-top: -50px;
 }
 
 /* Services section */
