@@ -1,4 +1,4 @@
-/* SUITES & ROOM SECTION */
+* SUITES & ROOM SECTION 
 
 * {
     padding: 0;
@@ -17,12 +17,12 @@ body {
     overflow-x: hidden;
     
 }
-
+/*
 section {
     height: 70vh;
     background-color: fff;
 }
-
+*/
 
 .container {
     display: inline-flex;
@@ -70,7 +70,6 @@ section {
     font-weight: 300;
 
 }
-
 
 .text-btn {
     width: 7%;
@@ -253,7 +252,7 @@ section {
 .arrow-right {
     margin-left: 10px;
 }
-
+*/
 
 
   
@@ -264,167 +263,168 @@ section {
 /* For Desktops */
 @media only screen and (max-width: 1100px) {
     
-.container {
-    display: inline-flex;
-    margin-left: 70px;
-}
-
-section {
-    height: 80vh;
-}
-
-.section-header {
-    font-size: 5.1em;
-    margin-left: 20px;
-}
-
-.section-para {
-    color: #43467C;
-    margin-left: 20px;
-    font-size: 2.2em;
-    line-height: 1.5;
-}
-
-.bg-img {
-    margin-right: -20%;
-    margin-left: 200px;
-    margin-top: 400px;
-    height: 50vh;
-}
-
-.text-btn {
-    width: 12%;
-    padding: 7px 0 0 0;
-
-}
-
-
-.rooms-and-suites-search-container {
-    width: 130%;
-    margin-left: 20px;
-}
-.rooms-and-suites-search-container .search-input {
-    border-radius: 10px;
-    font-size: 40px;
-    width: 90%;
-}
-
-.search-input::placeholder {
-    font-size: 30px;
-    margin: auto;
-}
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
-    border-radius: 10px;
-    padding: 12px 30px 12px 30px;
-    margin-top: 10px;
-    font-size: 35px;
-}
-
-#check-out-btn {
-     margin-left: 50px;
-}
-
-.rooms-and-suites-search-container .search-btn {
-    margin-top: 10px;
-    margin-left: 50px;
-    border-radius:  10px;
-    font-size: 35px;
-}
-
-.section-hot-deals {
-    background-color: #FAEEF2;
-    height: 300vh;
-}
-
-.flex {
-    display: block;
-}
-
-.tag-label {
-    width: 32%;
-    padding: 15px;
-    position: relative;
-    top: 20px;
-    font-size: 2em;
-}
-
-.suite-images {
-    width: 100%;
-    height: 50vh;
-    margin-top: -35px;
-}
-
-.container {
-   margin-top: -40px;
-}
-
-
-  .card-body {
-    width: 80%;
-    height: 75vh;
-}
-
-.card-title {
-    color: #B08CAC;
-    font-size: 2.5em;
-    margin-left: 50px;
-    letter-spacing: 2px;
-}
-
-.card-text {
-    color: #43467C;
-    font-size: .8em;
-    font-weight: 700;
-}
-
-.card1 {
-    margin-top: 20vh;
-    opacity: 1;
-    margin-left: 210px;
-    margin-right: -10px;
-}
-
-
-.card2 {
-    margin-top: 70px;
-    margin-left: 210px;
-    margin-right: -10px;
-}
-
-
-
-.card3 {
-    opacity: 1;
-    margin-top: 70px;
-    margin-left: 210px;
-    margin-right: -10px;
-
-}
-
-
-.section-header2 {
-    font-size: 3em;
-    margin-bottom: -100px;
-}
-
-
-.text2 {
-    color: #B08CAC;
-    letter-spacing: 2px;
-}
-
-.text-btn2 {
-    width: 10%;
-    padding: 7px 0 0 0;
-    border-radius: 50px;
-    border: none;
-    background-color: #43467C;
-}
-
-
-.arrow {
-  display: none;
-}
+    .container {
+        display: inline-flex;
+        margin-left: 70px;
+    }
+    
+    section {
+        height: 80vh;
+    }
+    
+    .section-header {
+        font-size: 5.1em;
+        margin-left: 20px;
+    }
+    
+    .section-para {
+        color: #43467C;
+        margin-left: 20px;
+        font-size: 2.2em;
+        line-height: 1.5;
+    }
+    
+    .bg-img {
+        margin-right: -20%;
+        margin-left: 200px;
+        margin-top: 400px;
+        height: 50vh;
+    }
+    
+    .text-btn {
+        width: 12%;
+        padding: 7px 0 0 0;
+    
+    }
+    
+    
+    .rooms-and-suites-search-container {
+        width: 130%;
+        margin-left: 20px;
+    }
+    .rooms-and-suites-search-container .search-input {
+        border-radius: 10px;
+        font-size: 40px;
+        width: 90%;
+    }
+    
+    .search-input::placeholder {
+        font-size: 30px;
+        margin: auto;
+    }
+    .rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+        border-radius: 10px;
+        padding: 12px 30px 12px 30px;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    
+    #check-out-btn {
+         margin-left: 50px;
+    }
+    
+    .rooms-and-suites-search-container .search-btn {
+        margin-top: 10px;
+        margin-left: 50px;
+        border-radius:  10px;
+        font-size: 35px;
+    }
+    
+    .section-hot-deals {
+        background-color: #FAEEF2;
+        height: 300vh;
+    }
+    
+    .flex {
+        display: block;
+    }
+    
+    .tag-label {
+        width: 32%;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+        font-size: 2em;
+    }
+    
+    .suite-images {
+        width: 100%;
+        height: 50vh;
+        margin-top: -35px;
+    }
+    
+    .container {
+       margin-top: -40px;
+    }
+    
+    
+      .card-body {
+        width: 80%;
+        height: 75vh;
+    }
+    
+    .card-title {
+        color: #B08CAC;
+        font-size: 2.5em;
+        margin-left: 50px;
+        letter-spacing: 2px;
+    }
+    
+    .card-text {
+        color: #43467C;
+        font-size: .8em;
+        font-weight: 700;
+    }
+    
+    .card1 {
+        margin-top: 20vh;
+        opacity: 1;
+        margin-left: 210px;
+        margin-right: -10px;
+    }
+    
+    
+    .card2 {
+        margin-top: 70px;
+        margin-left: 210px;
+        margin-right: -10px;
+    }
+    
+    
+    
+    .card3 {
+        opacity: 1;
+        margin-top: 70px;
+        margin-left: 210px;
+        margin-right: -10px;
+    
+    }
+    
+    
+    .section-header2 {
+        font-size: 3em;
+        margin-bottom: -100px;
+    }
+    
+    
+    .text2 {
+        color: #B08CAC;
+        letter-spacing: 2px;
+    }
+    
+    .text-btn2 {
+        width: 10%;
+        padding: 7px 0 0 0;
+        border-radius: 50px;
+        border: none;
+        background-color: #43467C;
+    }
+    
+    
+    .arrow {
+      display: none;
+    }
+     
     
   
 }
@@ -438,9 +438,6 @@ section {
     margin-left: 70px;
 }
 
-section {
-    height: 130vh;
-}
 
 .section-header {
     font-size: 4em;
@@ -608,9 +605,6 @@ section {
     margin-left: 50px;
 }
 
-section {
-    height: 100vh;
-}
 
 .section-header {
     margin-top: 100px;
@@ -687,7 +681,7 @@ section {
     width: 32%;
     padding: 15px;
     position: relative;
-    top: 35px;
+    top: 17px;
 }
 
 .suite-images {
@@ -787,9 +781,7 @@ section {
     margin-left: 10px;
 }
 
-section {
-    height: 155vh;
-}
+
 
 .section-header {
     margin-top: 100px;
@@ -866,7 +858,7 @@ section {
     width: 32%;
     padding: 15px;
     position: relative;
-    top: 35px;
+    top: 16px;
 }
 
 .suite-images {
@@ -958,9 +950,7 @@ section {
    /*Smaller phones: from 0 to 370px */
    @media only screen and (max-width: 370px) {
 
-       section {
-    height: 130vh;
-}
+
 
 .rooms-and-suites-search-container {
     width: 115%;
