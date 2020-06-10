@@ -126,7 +126,7 @@
     padding-left: 12%;
     height: 25vh;
     top: 10vh;
-    background-color: rgba(221, 182, 198, 0.2);
+    background-color: inherit;
     display: flex;
     flex-direction: column;
     width: 100%;
