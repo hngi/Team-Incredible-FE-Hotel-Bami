@@ -1,60 +1,67 @@
 .footer {
     display: flex;
-    flex-wrap: wrap;
+    height: 516px;
+    /* flex-wrap: wrap; */
     width: auto;
     padding: 40px;
     background: #484C7F;
     font-family: Poppins;
-    align-content: center;
-}
-
-.footer-section1 {
-    width: 45%;
+    align-content: center; 
+  }
+  
+  .footer-section1 {
+    width: 50%;
     padding: 0px 2.5%;
-}
-
-.footer-section2 {
-    width: 45%;
+    padding-right: 0;
+  }
+  
+  .footer-section2 {
+    margin-top: 117px;
+    width: 50%;
     display: flex;
     justify-content: space-around;
-}
-
-.footer-title {
+  }
+  
+  .footer-title {
     font-family: Poppins;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 36px;
     padding: 15px;
+    margin-bottom: 60px;
     color: #fff;
-}
-
-.footer-title>span {
+  }
+  
+  .footer-title>span {
     color: #AC8DAF;
-}
-
-/* icons styling */
-
-.footer-tw,
-.footer-fb,
-.footer-li {
+  }
+  /* 
+  /* icons styling */
+  .footer-icons {
+    margin-bottom: 60px;
+  }
+  
+   .footer-tw,
+  .footer-fb,
+  .footer-li {
     padding: 15px;
     background-color: #AC8DAF;
     font-size: 18px;
     margin: 0 10px;
     border-radius: 100%;
     color: #fff;
-
-}
-
-.footer-fb {
+  
+  }
+  
+  .footer-fb {
     padding: 15px 20px;
-}
-
-.footer-newsletter {
+  }
+  
+  .footer-newsletter {
     padding: 15px;
-}
-
-.footer-subscribe {
+  }
+  
+  .footer-subscribe {
     color: #fff;
     font-family: Poppins;
     font-style: normal;
@@ -62,13 +69,13 @@
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 20px;
-}
-
-form {
+  }
+  
+  .footer-form {
     display: flex;
-}
-
-input[type="text"] {
+  }
+  
+  .footer-input {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     padding: 0.625rem !important;
@@ -81,16 +88,17 @@ input[type="text"] {
     border: 2px solid #AC8DAF;
     outline: none;
     color: #fff
-}
-
-::placeholder {
+  }
+  
+  ::placeholder {
     color: #fff;
     opacity: 0.5;
-}
-
-
-input[type="submit"] {
+  }
+  
+  
+  .footer-submit {
     width: 168px;
+    height:64px;
     background: #AC8DAF;
     border: 2px solid #AC8DAF;
     cursor: pointer;
@@ -100,185 +108,188 @@ input[type="submit"] {
     font-weight: bold;
     line-height: 36px;
     color: #fff;
-}
-
-.footer-about-title,
-.footer-suites-title {
+  }
+  
+  .footer-about-title,
+  .footer-suites-title {
     color: #fff;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-}
-
-.footer-link {
+  }
+  
+  .footer-link {
     text-decoration: none;
     color: #fff;
-}
-
-.footer-ul {
+  }
+  
+  .footer-ul {
     list-style: none;
     padding: inherit;
-}
-
-.footer-link-li {
+  }
+  
+  .footer-link-li {
     padding-bottom: 8px;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 36px;
     color: #fff;
     opacity: 0.5;
-}
-
-
-@media screen and (max-width: 1024px) {
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
     .footer-section1 {
         width: 50%;
     }
-
+  
     .footer-section2 {
         width: 40%
     }
-
-    input[type="text"] {
+  
+    .footer-input {
         width: 250px;
     }
-
-    input[type="submit"] {
+  
+    .footer-submit {
         width: 120px;
         font-size: 18px;
     }
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 768px) {
     .footer {
         padding: 20px;
     }
-
-    input[type="text"] {
+  
+    .footer-input {
         width: 250px;
     }
-
-    input[type="submit"] {
+  
+    .footer-submit {
         width: 120px;
         font-size: 18px;
     }
-
+  
     .footer-section1 {
         width: 100%;
         padding: 0;
         margin-bottom: 30px;
     }
-
+  
     .footer-section2 {
         width: 100%;
         justify-content: left;
     }
-
+  
     .footer-about,
     .footer-suites {
         padding: 0 10px;
         width: 50%;
     }
-
+  
     .footer-title,
     .footer-subscribe {
         font-size: 24px;
     }
-
+  
     .footer-about-title,
     .footer-suites-title {
         font-size: 18px;
     }
-
+  
     .footer-ul {
         padding: 0;
     }
-
+  
     .footer-link-li {
         font-size: 18px;
     }
-
-    input[type="text"] {
+  
+    .footer-input {
         width: 300px
     }
-
-    input[type="submit"] {
+  
+    .footer-submit {
         width: 120px;
         font-size: 18px;
     }
-}
-
-@media screen and (max-width: 425px) {
+  }
+  
+  @media screen and (max-width: 425px) {
     .footer {
         padding: 0;
     }
-
+  
     .footer-section1,
     .footer-section2 {
         width: 100%;
     }
-
+  
     .about {
         padding: 0 15px;
     }
-
+  
     form {
         flex-wrap: nowrap;
     }
-
-    input[type="text"] {
+  
+    .footer-input {
         width: 70%;
     }
-
-    input[type="submit"] {
+  
+    .footer-submit {
         width: 35% !important;
-
+  
     }
-}
-
-@media screen and (max-width: 320px) {
+  }
+  
+  @media screen and (max-width: 320px) {
     form {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
         width: 100%;
     }
-
+  
     .footer-subscribe {
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 36px;
         padding: 0;
         margin-bottom: 0;
     }
-
+  
     .footer-newsletter {
         padding: 0 !important;
     }
-
+  
     .footer-subscribe {
         padding-left: 10px;
     }
-
+  
     .footer-tw,
     .footer-fb,
     .footer-li {
         padding: 10px;
-    }
-
-
-
-    input[type="text"] {
+    } 
+  
+  
+  
+     .footer-input {
         width: 90%;
         padding: 10px 0px 10px 8px !important;
         border: 1px solid #AC8DAF;
         margin: 10px auto;
     }
-
-    input[type="submit"] {
+  
+  
+    .footer-submit {
         width: 93% !important;
         padding: 8px 0 8px 0 !important;
         margin: 0 auto;
     }
-
+  
     .footer-tw,
     .footer-fb,
     .footer-li {
@@ -286,12 +297,13 @@ input[type="submit"] {
         margin: 0 5px;
         color: #fff;
     }
-
+  
     .footer-title {
         padding: 8px;
     }
-
+  
     .footer-fb {
         padding: 10px 12px;
     }
-} 
+  } 
+  
