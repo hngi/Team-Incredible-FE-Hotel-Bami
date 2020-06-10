@@ -87,9 +87,6 @@ p {
 }
 
 .fac2-img {
-    /* background-image: url("../images/fac-images/fac2-img1.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: 100%; */
     width: 100%;
     overflow: hidden;
 }
@@ -196,9 +193,10 @@ p {
 .gym-title {
     font-style: normal;
     font-weight: bold;
-    line-height: 150px;
-    font-size: 50px;
+    line-height: 80px;
+    font-size: 60px;
     color: #484C7F;
+    text-align: center;
 }
 
 .gym-image img {
@@ -247,7 +245,8 @@ p {
     }
 
     .fac3-img-body {
-        position: relative;
+       display: flex;
+       flex-direction: column;
     }
 
 }
@@ -328,12 +327,49 @@ p {
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
+
+    .fac-header, .fac2-header1, .fac3-header1{
+        line-height: 40px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: left;
+        padding: 10px;
+    } 
+ .fac-1, .fac-2, .fac-3{
+        padding: 10px;
+    }
+
+    .fac-1 button{
+        margin: 15px; 
+          padding: 10px;
+          font-size: 12px;
+       }
+
     .fac-2 {
-        grid-template-columns: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fac-3{
+        margin-top: -200px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .fac2-img {
         background-image: none;
+    }
+
+    .fac2-img img, .fac3-img{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
     }
 
     .fac-2 .img-3 {
@@ -452,6 +488,7 @@ p {
 
     .restaurant-text {
         padding-top: 100px;
+        
         /* padding-left: 20px; */
     }
 
