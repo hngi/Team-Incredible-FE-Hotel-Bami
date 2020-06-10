@@ -727,7 +727,7 @@ html {
 }
 @media screen and (min-width: 200px) and (max-width: 440px) {
     .home-page-our-services .our-services-title h1 {
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
     }
 }
@@ -806,7 +806,7 @@ html {
 }
 .home-page-our-services .services-container .service-content .content-inner img {
     width: 100%;
-    max-height: 500px;
+    max-height: 400px;
 }
 .home-page-our-services .services-container .service-content .text {
     background-color: #484C7F;
@@ -828,6 +828,33 @@ html {
     font-size: 45px;
     width: 95%;
     margin-bottom: 30px;
+}
+@media screen and (min-width: 280px) and (max-width: 581px) {
+    .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
+        font-size: 25px;
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 1em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        height: auto;
+        /*min-height: 380px;*/
+    }
+}
+@media screen and (min-width: 581px) and (max-width: 650px) {
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 2em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        max-height: 380px;
+        min-height: 380px;
+    }
 }
 .home-page-our-services .services-container .service-content .content-inner .text-container div {
     font-size: 18px;
