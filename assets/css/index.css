@@ -422,6 +422,8 @@ html {
     .home-welcome .home-welcome-text {
         font-size: 16px;
     }
+
+
 }
 
 .home-welcome .home-welcome-book-now-btn button {
@@ -454,6 +456,9 @@ html {
         max-height: 380px;
         min-height: 380px;
     }
+
+ 
+
 }
 
 @media screen and (min-width: 851px) and (max-width: 1150px) {
@@ -540,6 +545,38 @@ html {
     padding: 0 22px;
 }
 
+@media screen and (max-width: 1000px) {
+ 
+.card-title {
+    color: #B08CAC;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 40px 60px;
+    letter-spacing: 2px;
+     margin-left: 40px;
+}
+
+.card-text {
+    color: #43467C;
+    font-size: 1em;
+    font-weight: 700;
+     margin-left: 0px;
+}
+
+
+.card2 {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.arrow {
+    height: 20vh;
+    width: 100%;
+    margin-top: 130px;
+    margin-left: 80px;
+}
+}
+
 @media screen and (min-width: 450px) and (max-width: 600px) {
     .about-text {
         padding: 0 22px;
@@ -579,13 +616,21 @@ html {
     justify-content: space-around;
 }
 
+
 .special-img .aside-des {
     background: rgb(100, 103, 145);
     margin-top: -7px;
     width: 100%;
 }
 
+.special-img {
+    height: 105vh;
+}
 
+.welcome-text {
+   font-size: 1.4em;
+   line-height: 2;
+}
 
 
   .card-body {
@@ -593,7 +638,9 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
+    margin-left: -40px;
+    margin-top: 100px;
 }
 
 .card-title {
@@ -612,17 +659,23 @@ html {
 
 
 .card2 {
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 80px;
 }
 
     .suite-images {
-        height: 60vh;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .card-big {
+        margin-top: 17vh;
     }
 
     
 
-.tag-label {
+
+/*.tag-label {
     background-color: #43467C;
     color: #fff;
     width: 32%;
@@ -632,7 +685,7 @@ html {
     left: 102px;
     z-index: 9999;
 }
-
+*/
 .flex-direction {
     display: flex;
 }
@@ -700,6 +753,64 @@ html {
     .special-title img {
         width: 40px;
     }
+
+    .special-img {
+    height: 115vh;
+}
+
+.welcome-text {
+   font-size: 1.2em;
+   line-height: 2;
+}
+
+
+  .card-body {
+    background-color: #FAEEF2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100vh;
+    margin-left: -40px;
+}
+
+.card-title {
+    color: #B08CAC;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 40px 60px;
+    letter-spacing: 2px;
+     margin-left: -40px;
+}
+
+.card-text {
+    color: #43467C;
+    font-size: 1em;
+    font-weight: 700;
+     margin-left: 0px;
+}
+
+
+.card2 {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.arrow {
+    height: 10vh;
+    width: 100%;
+    margin-top: 130px;
+    margin-left: -80px;
+}
+
+
+.arrow-left {
+    margin-right: 5px;
+}
+
+.arrow-right {
+    margin-left: 5px;
+}
+
 }
 
 @media screen and (min-width: 365px) and (max-width: 464px) {
@@ -710,6 +821,50 @@ html {
     .special-title img {
         width: 50px;
     }
+
+    .special-img {
+    height: 120vh;
+}
+
+    .card-body {
+    width: 100%;
+    height: 100vh;
+    margin-left: -40px;
+    margin-bottom: 50px;
+
+}
+
+.card-title {
+    color: #B08CAC;
+    font-size: 1.5em;
+    margin-left: -40px;
+    letter-spacing: 2px;
+}
+
+.suite-images {
+    width: 100%;
+    height: 60%;
+}
+
+
+
+.arrow {
+    height: 10vh;
+    width: 50%;
+    margin-top: 90px;
+    margin-left: -20px;
+}
+
+
+.arrow-left {
+    margin-right: 5px;
+}
+
+.arrow-right {
+    margin-left: 5px;
+}
+
+
 }
 
 @media screen and (min-width: 465px) and (max-width: 650px) {
@@ -721,6 +876,7 @@ html {
 .special-title .comp {
     color: #484c7f;
 }
+
 
 .special-sec a {
     text-decoration: none;
