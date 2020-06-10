@@ -4,9 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-}  
+}
+
 body {
     overflow-x: hidden;
+}
+
+nav {
+    background-color: #F9EFFA;
 }
 
 .fac-1,
@@ -39,7 +44,7 @@ p {
 .fac-header {
     color: #484C7F;
     font-size: 60px;
-    line-height: 76px;
+    line-height: 1;
     padding: 60px 0;
 }
 
@@ -149,7 +154,7 @@ p {
         font-size: 18px;
         text-align: left;
         padding: 10px;
-    } 
+    }
 
 
     .fac-1,
@@ -167,20 +172,21 @@ p {
         top: 190px;
     }
 
-    .fac-1 button{
-          padding: 10px;
-          font-size: 12px;
-          text-align: center;
-       }
-   
+    .fac-1 button {
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
     .fac-header,
     .fac2-header1,
     .fac3-header1 {
-            line-height: 60px;
-            padding: 10px;
-            font-size: 35px;
-            text-align: left;
+        line-height: 1;
+        padding: 10px;
+        font-size: 40px;
+        text-align: left;
     }
+
     .fac-2 {
         grid-template-columns: 100%;
     }
@@ -198,37 +204,38 @@ p {
     }
 
     .fac3-img-body img {
-      display: block;
-      width: 100%;
-      height: auto;
-      max-width: 500px;
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
     }
 
 }
+
 /* medium screen */
 @media only screen and (max-width: 600px) {
     p {
         font-size: 16px;
         text-align: left;
         padding: 10px;
-    } 
+    }
 
     .fac-1,
     .fac-2 {
         padding-left: 10px;
     }
 
-    .fac-1 button{
-        margin: 15px; 
-          padding: 10px;
-          font-size: 12px;
-       }
+    .fac-1 button {
+        margin: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
 
     .fac-header,
     .fac2-header1,
     .fac3-header1 {
-            line-height: 50px;
-            padding: 10px;
+        line-height: 1;
+        padding: 10px;
     }
 
     .fac-1 .img-1 {
@@ -236,7 +243,8 @@ p {
         top: 700px;
     }
 
-    .fac2-img img, .fac3-img{
+    .fac2-img img,
+    .fac3-img {
         display: block;
         width: 100%;
         height: auto;
@@ -298,25 +306,31 @@ p {
 /*smallest screens */
 @media only screen and (max-width: 320px) {
 
-    .fac-header, .fac2-header1, .fac3-header1{
-        line-height: 40px;
+    .fac-header,
+    .fac2-header1,
+    .fac3-header1 {
+        line-height: 1;
         padding: 10px;
+        font-size: 27px;
     }
 
     p {
         font-size: 16px;
         text-align: left;
         padding: 10px;
-    } 
- .fac-1, .fac-2, .fac-3{
+    }
+
+    .fac-1,
+    .fac-2,
+    .fac-3 {
         padding: 10px;
     }
 
-    .fac-1 button{
-        margin: 15px; 
-          padding: 10px;
-          font-size: 12px;
-       }
+    .fac-1 button {
+        margin: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
 
     .fac-2 {
         margin-top: 50px;
@@ -325,7 +339,7 @@ p {
         justify-content: center;
     }
 
-    .fac-3{
+    .fac-3 {
         margin-top: -200px;
         display: flex;
         flex-direction: column-reverse;
@@ -335,7 +349,8 @@ p {
         background-image: none;
     }
 
-    .fac2-img img, .fac3-img{
+    .fac2-img img,
+    .fac3-img {
         display: block;
         width: 100%;
         height: auto;
@@ -364,6 +379,7 @@ p {
         top: 2450px;
     }
 }
+
 /* 
 /* restaurant and gym section  */
 .restaurant-section {
@@ -375,12 +391,12 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    }
+}
 
 .restaurant-title {
     font-style: normal;
     font-weight: bold;
-    line-height: 150px;
+    line-height: 1.5;
     color: #AC8DAF;
     font-size: 35px;
 }
@@ -393,19 +409,25 @@ p {
     text-align: c;
 }
 
+.ellipse-gym {
+    display: none;
+}
+
 .restaurant-image img {
     width: 100%;
     max-width: 500px;
     height: auto;
     padding-top: 20px;
 }
-.ellipse-restaurant{
+
+.ellipse-restaurant {
     position: absolute;
     left: 1px;
     width: 100px;
     top: 3100px;
 }
-.ellipse-gym{
+
+.ellipse-gym {
     position: absolute;
     right: 1px;
     width: 100px;
@@ -420,7 +442,6 @@ p {
 .gym-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
     justify-items: center;
     text-align: center;
 
@@ -429,17 +450,17 @@ p {
 .gym-title {
     font-style: normal;
     font-weight: bold;
-    line-height: 150px;
+    line-height: 1.5;
     font-size: 35px;
     color: #484C7F;
 }
 
 .gym-image img {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 100%;
     max-width: 500px;
     height: auto;
-} 
+}
 
 /* mobile for gym and restaurant */
 @media screen and (min-width:1020px) {
@@ -463,7 +484,7 @@ p {
 
     .restaurant-text {
         padding-top: 100px;
-        
+
         /* padding-left: 20px; */
     }
 
@@ -472,18 +493,21 @@ p {
         padding-top: 100px;
         padding-left: 50px;
     }
-    .ellipse-restaurant{
+
+    .ellipse-restaurant {
         position: absolute;
         left: 1px;
         width: 100px;
         top: 2900px;
     }
-    .ellipse-gym{
+
+    .ellipse-gym {
         position: absolute;
         right: 1px;
         width: 100px;
         top: 3600px;
     }
+
     .body-text {
         text-align: left;
         font-size: 1.125em;
