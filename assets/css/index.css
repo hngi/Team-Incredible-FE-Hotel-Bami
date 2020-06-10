@@ -87,24 +87,92 @@ html {
 .home-welcome [class*="col-"] {
     float: left;
 }
-.home-welcome .col-1 {width: 8.33%;}
-.home-welcome .col-2 {width: 16.66%;}
-.home-welcome .col-3 {width: 25%;}
-.home-welcome .col-4 {width: 33.33%;}
-.home-welcome .col-5 {width: 41.66%;}
-.home-welcome .col-6 {width: 50%;}
-.home-welcome .col-7 {width: 58.33%;}
-.home-welcome .col-8 {width: 66.66%;}
-.home-welcome .col-9 {width: 75%;}
-.home-welcome .col-10 {width: 83.33%;}
-.home-welcome .col-11 {width: 91.66%;}
-.home-welcome .col-12 {width: 100%;}
+
+.home-welcome .col-1 {
+    width: 8.33%;
+}
+
+.home-welcome .col-2 {
+    width: 16.66%;
+}
+
+.home-welcome .col-3 {
+    width: 25%;
+}
+
+.home-welcome .col-4 {
+    width: 33.33%;
+}
+
+.home-welcome .col-5 {
+    width: 41.66%;
+}
+
+.home-welcome .col-6 {
+    width: 50%;
+}
+
+.home-welcome .col-7 {
+    width: 58.33%;
+}
+
+.home-welcome .col-8 {
+    width: 66.66%;
+}
+
+.home-welcome .col-9 {
+    width: 75%;
+}
+
+.home-welcome .col-10 {
+    width: 83.33%;
+}
+
+.home-welcome .col-11 {
+    width: 91.66%;
+}
+
+.home-welcome .col-12 {
+    width: 100%;
+}
+
+.img-one-elipse {
+    position: absolute;
+    left: .1rem;
+    top: 26rem;
+    height: 20rem;
+
+}
+
+.img-three-elipse {
+    position: absolute;
+    right: .1rem;
+    top: 170rem;
+    height: 20rem;
+
+}
+
+.img-two-elipse {
+    position: absolute;
+    left: .1rem;
+    top: 122rem;
+    height: 20rem;
+
+}
+
+.img-four-elipse {
+    position: absolute;
+    left: .1rem;
+    top: 202rem;
+    height: 16rem;
+
+}
 
 .home-welcome {
     background-color: #F8F0F4;
     padding: 24px 0;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .home-welcome .home-welcome-left-container {
@@ -116,17 +184,58 @@ html {
     .home-welcome .home-welcome-left-container {
         padding: 2em 3em;
     }
+
+    .img-one-elipse {
+        display: none;
+
+    }
+
+    .img-three-elipse {
+        display: none;
+
+    }
+
+    .img-two-elipse {
+        display: none;
+    }
+
+    .img-four-elipse {
+        display: none;
+
+    }
 }
+
 @media screen and (min-width: 701px) and (max-width: 778px) {
     .home-welcome .home-welcome-left-container {
         padding: 1em 2em;
     }
+
+    .img-one-elipse {
+        display: none;
+
+    }
+
+    .img-three-elipse {
+        display: none;
+
+    }
+
+    .img-two-elipse {
+        display: none;
+    }
+
+    .img-four-elipse {
+        display: none;
+
+    }
 }
+
 @media screen and (min-width: 851px) and (max-width: 1150px) {
     .home-welcome .home-welcome-left-container {
         padding: 3em 4em;
     }
 }
+
 @media screen and (min-width: 1150px) and (max-width: 1260px) {
     .home-welcome .home-welcome-left-container {
         padding: 4em 5em;
@@ -136,21 +245,67 @@ html {
 .home-welcome .home-welcome-title h1 {
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 60px;
     color: #484C7F;
     margin: 10px 2px;
 }
+
 /*mobile view*/
 @media screen and (min-width: 331px) and (max-width: 430px) {
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
+    .img-one-elipse {
+        display: none;
+
+    }
+
+    .img-three-elipse {
+        display: none;
+
+    }
+
+    .img-two-elipse {
+        display: none;
+    }
+
+    .img-four-elipse {
+        display: none;
+
+    }
+
     .home-welcome .home-welcome-title h1 {
         font-size: 38px;
         color: #484C7F;
         margin: 2px 0;
     }
 }
+
 @media screen and (min-width: 431px) and (max-width: 510px) {
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
+    .img-one-elipse {
+        display: none;
+
+    }
+
+    .img-three-elipse {
+        display: none;
+
+    }
+
+    .img-two-elipse {
+        display: none;
+    }
+
+    .img-four-elipse {
+        display: none;
+
+    }
+
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
         font-weight: bold;
@@ -159,6 +314,7 @@ html {
         margin: 6px 0;
     }
 }
+
 @media screen and (min-width: 701px) and (max-width: 778px) {
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
@@ -168,6 +324,7 @@ html {
         margin: 6px 0;
     }
 }
+
 @media screen and (min-width: 778px) and (max-width: 850px) {
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
@@ -177,6 +334,7 @@ html {
         margin: 10px 2px;
     }
 }
+
 @media screen and (min-width: 850px) and (max-width: 946px) {
     .home-welcome .home-welcome-title h1 {
         font-style: normal;
@@ -190,62 +348,82 @@ html {
 .content {
     padding: 0 12px 0 12px;
 }
+
 .home-welcome .home-welcome-text {
     font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 27px;
     color: rgba(72, 76, 127, 0.74);
 }
+
 @media screen and (max-width: 346px) {
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
     .home-welcome .home-welcome-title h1 {
         font-size: 28px;
         color: #484C7F;
         margin: -6px 0 0 0;
     }
+
     .home-welcome .home-welcome-text {
         font-size: 12px;
     }
+
     .home-welcome .home-welcome-title h1 img {
         width: 48px;
     }
 }
+
 @media screen and (min-width: 316px) and (max-width: 346px) {
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
     .home-welcome .home-welcome-left-container {
         padding: 1em 2em;
     }
+
     .home-welcome .home-welcome-title h1 {
         font-size: 30px;
         color: #484C7F;
         margin: -6px 0 0 0;
     }
+
     .home-welcome .home-welcome-text {
         font-size: 14px;
     }
 }
+
 @media screen and (min-width: 346px) and (max-width: 383px) {
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
     .home-welcome .home-welcome-title h1 {
         font-size: 30px;
         color: #484C7F;
         margin: -6px 0 0 0;
     }
+
     .home-welcome .home-welcome-text {
         font-size: 14px;
     }
 }
+
 @media screen and (min-width: 383px) and (max-width: 512px) {
     .home-welcome .home-welcome-text {
         font-size: 15px;
     }
 }
+
 @media screen and (min-width: 513px) and (max-width: 792px) {
     .home-welcome .home-welcome-text {
         font-size: 16px;
     }
 }
+
 .home-welcome .home-welcome-book-now-btn button {
     width: 150px;
     height: 50px;
@@ -277,6 +455,7 @@ html {
         min-height: 380px;
     }
 }
+
 @media screen and (min-width: 851px) and (max-width: 1150px) {
     .home-welcome .img-container img {
         float: right;
@@ -291,11 +470,18 @@ html {
 /*mobile view*/
 
 @media screen and (max-width: 700px) {
-    .home-welcome .col-5 {width: 100%;}
-    .home-welcome .col-7 {width: 100%;}
+    .home-welcome .col-5 {
+        width: 100%;
+    }
+
+    .home-welcome .col-7 {
+        width: 100%;
+    }
+
     .home-welcome .home-welcome-bg {
         clear: both;
     }
+
     .home-welcome .home-welcome-bg img {
         min-width: 100%;
         max-width: 100%;
@@ -308,17 +494,19 @@ html {
         padding: 4px 0;
         width: 100%;
     }
+
     .home-welcome .home-welcome-left-container {
         padding: 2em 3em;
     }
 
     /*.home-welcome .home-welcome-title h1 {*/
-        /*font-size: 58px;*/
-        /*margin: 10px 2px;*/
+    /*font-size: 58px;*/
+    /*margin: 10px 2px;*/
     /*}*/
     .content {
         padding: 0 12px 0 12px;
     }
+
     .home-welcome .home-welcome-book-now-btn button {
         width: 150px;
         height: 50px;
@@ -351,6 +539,7 @@ html {
     color: #484c7f;
     padding: 0 22px;
 }
+
 @media screen and (min-width: 450px) and (max-width: 600px) {
     .about-text {
         padding: 0 22px;
@@ -359,7 +548,7 @@ html {
 
 .about-title {
     color: #AC8DAF;
-    font-size: 5rem;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -416,25 +605,30 @@ html {
 
 .special-title {
     color: rgb(224, 134, 171);
-    font-size: 3rem;
+    font-size: 56px;
     font-weight: bold;
 }
+
 @media screen and (min-width: 200px) and (max-width: 365px) {
     .special-title {
         font-size: 16px;
     }
+
     .special-title img {
         width: 40px;
     }
 }
+
 @media screen and (min-width: 365px) and (max-width: 464px) {
     .special-title {
         font-size: 22px;
     }
+
     .special-title img {
         width: 50px;
     }
 }
+
 @media screen and (min-width: 465px) and (max-width: 650px) {
     .special-title {
         font-size: 30px;
@@ -598,6 +792,7 @@ html {
 
 /*Customer stories section */
 .stories-sec {
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     background: rgb(238, 216, 225);
@@ -610,6 +805,7 @@ html {
     padding: 1em 2em;
     margin-left: -50px;
     width: 1005px;
+    margin-top: 10%;
 }
 
 .stories-title h3 {
@@ -647,7 +843,7 @@ html {
 
 .stories-img img {
     width: 250px;
-    margin-top: 45px;
+    margin-top: 134px;
     margin-left: -50%;
 }
 
@@ -719,40 +915,47 @@ html {
 /*our services section*/
 
 .home-page-our-services {
-    margin: 12px;
+    margin: 20px;
 }
+
 .home-page-our-services .our-services-title h1 {
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
 }
+
 @media screen and (min-width: 200px) and (max-width: 440px) {
     .home-page-our-services .our-services-title h1 {
         font-size: 26px;
         text-align: center;
     }
 }
+
 @media screen and (min-width: 440px) and (max-width: 540px) {
     .home-page-our-services .our-services-title h1 {
         font-size: 40px;
         text-align: center;
     }
 }
+
 @media screen and (min-width: 540px) and (max-width: 800px) {
     .home-page-our-services .our-services-title h1 {
         font-size: 60px;
         text-align: center;
     }
 }
+
 .home-page-our-services .services-container {
     width: 75%;
     margin: auto;
 }
+
 @media screen and (max-width: 650px) {
     .home-page-our-services .services-container {
         width: 100%;
         margin: auto;
     }
 }
+
 .home-page-our-services .services-container .service-btn {
     background: #FFFFFF;
     border: 1px solid #484C7F;
@@ -764,24 +967,28 @@ html {
     cursor: pointer;
     outline: none;
 }
+
 @media screen and (min-width: 379px) and (max-width: 411px) {
     .home-page-our-services .services-container .service-btn {
         font-size: 12px;
         padding: 3px 1px;
     }
 }
+
 @media screen and (min-width: 412px) and (max-width: 520px) {
     .home-page-our-services .services-container .service-btn {
         font-size: 12px;
         padding: 6px;
     }
 }
+
 .home-page-our-services .services-container .service-btn:hover {
     background: #484C7F;
     border: 1px solid #484C7F;
     color: #FFFFFF;
     transition: ease 0.6s;
 }
+
 .home-page-our-services .services-container .service-btn.active {
     background: #484C7F;
     border: 1px solid #484C7F;
@@ -791,28 +998,34 @@ html {
     cursor: pointer;
     outline: none;
 }
+
 .home-page-our-services .services-container .service-content {
     width: 100%;
 }
+
 .home-page-our-services .services-container .service-content .content-inner {
     width: 50%;
     float: left;
     color: #FFFFFF;
 }
+
 @media screen and (max-width: 650px) {
     .home-page-our-services .services-container .service-content .content-inner {
         width: 100%;
     }
 }
+
 .home-page-our-services .services-container .service-content .content-inner img {
     width: 100%;
     max-height: 500px;
 }
+
 .home-page-our-services .services-container .service-content .text {
     background-color: #484C7F;
     max-height: 500px;
     min-height: 500px;
 }
+
 @media screen and (max-width: 650px) {
     .home-page-our-services .services-container .content .content-inner {
         width: 100%;
@@ -823,43 +1036,51 @@ html {
     margin: 3em 2em;
     width: 100%;
 }
+
 .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
     font-size: 45px;
     width: 95%;
     margin-bottom: 30px;
 }
+
 @media screen and (min-width: 280px) and (max-width: 581px) {
     .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
         font-size: 25px;
         width: 98%;
         margin-bottom: 10px;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container {
         margin: 1em 1em;
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .text {
         background-color: #484C7F;
         height: auto;
         /*min-height: 380px;*/
     }
 }
+
 @media screen and (min-width: 581px) and (max-width: 650px) {
     .home-page-our-services .services-container .service-content .content-inner .text-container {
         margin: 2em 1em;
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .text {
         background-color: #484C7F;
         max-height: 380px;
         min-height: 380px;
     }
 }
+
 .home-page-our-services .services-container .service-content .content-inner .text-container div {
     font-size: 18px;
     width: 80%;
     margin-bottom: 30px;
 }
+
 .home-page-our-services .services-container .service-content .content-inner .text-container button {
     font-size: 18px;
     padding: 12px;
@@ -868,57 +1089,69 @@ html {
     border-radius: 10px;
     border: 1px solid #AC8DAF;
 }
+
 @media screen and (min-width: 651px) and (max-width: 858px) {
     .home-page-our-services .services-container .content .content-inner {
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container {
         margin: 1em 1em;
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
         font-size: 27px;
         width: 95%;
         margin-bottom: 3px;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container div {
         font-size: 14px;
         width: 90%;
         margin-bottom: 30px;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container button {
         font-size: 14px;
         padding: 8px;
     }
+
     .home-page-our-services .services-container .service-content .text {
         background-color: #484C7F;
         /*max-height: 380px;*/
         min-height: 360px;
     }
+
     .home-page-our-services .services-container .service-content .content-inner img {
         width: 100%;
         min-height: 360px;
     }
 }
+
 @media screen and (min-width: 858px) and (max-width: 1179px) {
     .home-page-our-services .services-container .content .content-inner {
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container {
         margin: 1em 1em;
         width: 100%;
     }
+
     .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
         font-size: 27px;
         width: 95%;
         margin-bottom: 3px;
     }
+
     .home-page-our-services .services-container .service-content .text {
         background-color: #484C7F;
         /*max-height: 380px;*/
         min-height: 420px;
         max-height: 420px;
     }
+
     .home-page-our-services .services-container .service-content .content-inner img {
         width: 100%;
         min-height: 420px;
