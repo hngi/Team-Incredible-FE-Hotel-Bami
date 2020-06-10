@@ -1,0 +1,169 @@
+/* =================== CONTACT STYLES ===================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contact-container {
+    background: #e5e5e5;
+    height: 1015px;
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 135px 100px 100px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contact-us {
+    width: 50%;
+  }
+  
+  .contact-title {
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: bold;
+    color: #ac8daf;
+    margin-bottom: 24px;
+  }
+  
+  .contact-title > span {
+    color: #ddb6c6;
+  }
+  
+  .contact-title-dash {
+    display: inline-block;
+    position: absolute;
+    width: 74px;
+    height: 10px;
+    left: 666px;
+    top: 290px;
+    background: #484c7f;
+    border-radius: 20px;
+  }
+  
+  .contact-desc {
+    /* width: 522px; */
+    width: 90%;
+    padding-left: 20px;
+    top: 396px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(72, 76, 127, 0.74);
+    margin-bottom: 50px;
+  }
+  
+  .contact-branches {
+    display: flex;
+  }
+  
+  .branch-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #484c7f;
+    margin-bottom: 14px;
+  }
+  
+  .branch-street {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(72, 76, 127, 0.74);
+    margin-bottom: 68.5px;
+  }
+  
+  .contact-form {
+    width: 50%;
+    padding-left: 100px;
+    margin-top: 85px;
+  }
+  
+  .form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: end;
+    color: #484c7f;
+    margin-bottom: 44px;
+  }
+  
+  .contact-name,
+  .contact-email,
+  .contact-no,
+  .contact-message {
+    display: block;
+    margin-bottom: 14px;
+    width: 100%;
+    height: 62px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 50px;
+    background: #ffffff;
+    border: 1px solid #484c7f;
+    box-sizing: border-box;
+    outline: none;
+    color: #484c7f;
+  }
+  
+  .contact-message {
+    height: 232px;
+    margin-bottom: 25px;
+    padding-top: 18px;
+  }
+  
+  .contact-name::placeholder,
+  .contact-email::placeholder,
+  .contact-no::placeholder {
+    color: #484c7f;
+    opacity: 0.5;
+  }
+  
+  .contact-message::placeholder {
+    color: #484c7f;
+    opacity: 0.5;
+  }
+  
+  .contact-submit {
+    width: 150px;
+    height: 50px;
+    background: #484c7f;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    outline: none;
+    border: none;
+  }
+  
+  .contact-submit:hover {
+    background-color: rgb(46, 50, 99);
+    cursor: pointer;
+  }
+  
+  .contact-circle {
+    position: absolute;
+    top: 65%;
+    left: -15%;
+    height: 354px;
+    width: 354px;
+    border-radius: 50%;
+    z-index: 2;
+    background: rgba(221, 182, 198, 0.8);
+  }
+  
+  .circle-below {
+    top: 80%;
+    left: -9%;
+    z-index: 1;
+    background: rgba(72, 76, 127, 0.8);
+  }
+  
+  /* ===============END OF CONTACT FORM=========== */
