@@ -21,18 +21,11 @@ body {
     padding-bottom: 30px;
 }
 
-.fac-1 .img-1 {
+.fac-1 .ellipse-1 {
     position: absolute;
     right: 1px;
     width: 150px;
-    top: 400px;
-}
-
-.fac-1 .img-2 {
-    position: absolute;
-    right: 1px;
-    width: 100px;
-    top: 480px;
+    top: 250px;
 }
 
 p {
@@ -94,9 +87,11 @@ p {
 }
 
 .fac2-img {
-    background-image: url("../images/fac-images/fac2-img1.png");
-    background-repeat: no-repeat;
-    background-position: 100%;
+    /* background-image: url("../images/fac-images/fac2-img1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 100%; */
+    width: 100%;
+    overflow: hidden;
 }
 
 .fac-2 p {
@@ -105,19 +100,12 @@ p {
     padding-bottom: 60px;
 }
 
-.fac-2 .img-3 {
-    position: absolute;
-    left: 1px;
-    width: 70px;
-    top: 1226px;
-
-}
-
-.fac-2 .img-4 {
+.fac-2 .ellipse-3 {
     position: absolute;
     left: 1px;
     width: 100px;
-    top: 1178px;
+    top: 1200px;
+
 }
 
 .fac-3 {
@@ -150,19 +138,11 @@ p {
     width: 60%;
 }
 
-.fac-3 .img-5 {
+.fac-3 .ellipse-5 {
     position: absolute;
     right: 1px;
     width: 100px;
-    top: 2104px;
-}
-
-.fac-3 .img-6 {
-    position: absolute;
-    right: 1px;
-    width: 100px;
-    top: 2138px;
-    ;
+    top: 1900px;
 }
 
 .restaurant-section {
@@ -174,11 +154,8 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("../images/fac-images/ellipse4.png"), url("../images/fac-images/ellipse3.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: 0% 100%, 0% 100%;
+    background-image: none;
 }
-
 .restaurant-title {
     font-style: normal;
     font-weight: bold;
@@ -211,9 +188,7 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("../assets/images/fac-images/images/ellipse5.png"), url("../assets/images/fac-images/images/ellipse6.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right bottom, 100% 85%;
+    background-image: none;
     padding-bottom: 100px;
 
 }
@@ -254,6 +229,9 @@ p {
     .fac2-header1,
     .fac3-header1 {
         font-size: 30px;
+    }
+    .fac-2 {
+        grid-template-columns: 100%;
     }
 
     .fac-2 .img-3 {
@@ -391,10 +369,7 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("/assets/images/fac-images/ellipse4.png"), url("/assets/images/fac-images/ellipse3.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left bottom, 0% 80%;
-}
+    }
 
 .restaurant-title {
     font-style: normal;
@@ -417,7 +392,18 @@ p {
     height: auto;
     padding-top: 50px;
 }
-
+.ellipse-restaurant{
+    position: absolute;
+    left: 1px;
+    width: 100px;
+    top: 3100px;
+}
+.ellipse-gym{
+    position: absolute;
+    right: 1px;
+    width: 100px;
+    top: 4200px;
+}
 
 .gym-section {
     background-color: rgb(238, 232, 239);
@@ -426,9 +412,6 @@ p {
 .gym-container {
     display: flex;
     flex-direction: column;
-    background-image: url("/assets/images/fac-images/ellipse5.png"), url("/assets/images/fac-images/ellipse6.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right bottom, 100% 85%;
     padding-bottom: 100px;
 
 }
@@ -477,7 +460,18 @@ p {
         padding-top: 100px;
         padding-left: 50px;
     }
-
+    .ellipse-restaurant{
+        position: absolute;
+        left: 1px;
+        width: 100px;
+        top: 2900px;
+    }
+    .ellipse-gym{
+        position: absolute;
+        right: 1px;
+        width: 100px;
+        top: 3600px;
+    }
     .body-text {
         text-align: left;
         font-size: 1.125em;
