@@ -1,0 +1,136 @@
+.bg {
+    background-image: url(circ2.png), url(circ1.png);
+    background-size: 10%, 15%;
+    background-position: left 0% bottom -15%, left bottom -50%;
+    background-repeat: no-repeat, no-repeat;
+    display: block;
+    max-width: 100%;
+    height: 300px;
+}
+.contact {
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.contact-us {
+    width: 50%;
+    padding: 1.5rem;
+    flex-direction: column;
+    display: flex;
+}
+.contact-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #AC8DAF;
+}
+.contact-title>span {
+    color: #DDB6C6;
+}
+.contact-desc {
+    width: 60%;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+.rect {
+    align-self: center;
+    margin-left: 12px;
+}
+.sp {
+    display: flex;
+    height: 100px;
+    margin-bottom: 2.5rem;
+}
+.branches {
+    flex-wrap: wrap;
+    display: flex;
+}
+.branch {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.branch-name {
+    width: 16rem;
+    font-size: 1.5rem;
+}
+.branch-street {
+    width: 16rem;
+}
+.form {
+    width: 50%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+}
+.form-title {
+    text-align: right;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input-field {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: .75rem;
+    border-width: 2px;
+}
+.btn {
+    width: 200px;
+    padding: 20px 10px;
+    background-color: #484C7F;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .contact-us {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact {
+        align-content: flex-start;
+    }
+}
+@media screen and (max-width: 489px) {
+    .branch {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-title {
+        font-size: 25px;
+    }
+    .form {
+        margin-top: 1rem;
+    }
+    .btn {
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sp {
+        height: 30px;
+    }
+    .contact-desc {
+        width: 100%;
+    }
+    .rect {
+        align-self: flex-end;
+        width: 25px;
+        margin-left: 5px;
+    }
+}
