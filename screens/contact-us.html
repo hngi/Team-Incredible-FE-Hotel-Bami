@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type=text/css href="contact.css">
     
-</head>
-<body>
+    <title>BelleView</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo-left">Belle</span><span class="logo-right">View</span>
+      </div>
+      <ul class="nav-links">
+        <li><a class="nav-link active" href="#">Home</a></li>
+        <li>
+          <a class="nav-link" href="/screens/facilities.html">Facilities</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/screens/suites-and-rooms.html"
+            >Rooms & Suites</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="/screens/contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </nav>
+
+    <script src="header.js"></script>
     <section class="bg contact">
         <div class="contact-us">
             <div class="sp">
@@ -37,5 +74,64 @@
             </form>
         </div>
     </section>
-</body>
+
+
+    <footer class="footer">
+        <div class="footer-section1">
+            <div>
+                <h1 class="footer-title">Belle<span>View</span></h1>
+            </div>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-twitter footer-tw"></i></a>
+                <a href="#"><i class="fab fa-facebook-f footer-fb"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in footer-li"></i></a>
+            </div>
+            <div class="footer-newsletter">
+                <h1 class="footer-subscribe">Subscribe to our Newsletter</h1>
+                <form>
+                    <input type="text2" placeholder="E-mail Address" />
+                    <input type="submit" value="SEND" />
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-section2">
+            <div class="footer-about">
+                <h3 class="footer-about-title">About Us</h3>
+                <ul class="footer-ul">
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">About Us</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-suites">
+                <h3 class="footer-suites-title">Suites</h3>
+                <ul class="footer-ul">
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Golden Suite</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Silver Suite</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">King's Suite</a>
+                    </li>
+                    <li class="footer-link-li">
+                        <a class="footer-link" href="#">Policy Suite</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+  </body>
 </html>
