@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    text-align: left !important;
 }  
 body {
     overflow-x: hidden;
@@ -210,16 +211,28 @@ p {
 /*tabs*/
 @media only screen and (max-width: 769px) {
 
-    .fac-1,
-    .fac-2 {
+    .fac-1 {
         padding-left: 10px;
     }
-
+    .fac-2{
+        padding-left: 0;
+            padding-top: 0px;
+            padding-bottom:0px;
+        
+    }
+    .fac-2-text{
+        padding-left: 10px;
+    }
     .fac-1 .img-1 {
         width: 150px;
         top: 100px;
     }
-
+    .fac-1 .ellipse-1 {
+       top: 194px;
+    }
+    .fac-2 .ellipse-3 {
+        display:none;
+    }
     .fac-1 .img-2 {
         width: 100px;
         top: 190px;
@@ -233,11 +246,27 @@ p {
     .fac-2 {
         grid-template-columns: 100%;
     }
-
+    .fac2-img img{
+        width:769px;
+    }
+    .spa,.gym-text, .restaurant-text {
+        padding-left: 10px ;
+    }
     .fac-2 .img-3 {
 
         width: 60px;
         top: 1460px;
+    }
+    .fac-3 .ellipse-5 {
+        top: 2020px;
+    }
+     .ellipse-restaurant {
+        width: 80px !important;
+        top: 4026px !important; 
+    }
+    .ellipse-gym {
+        width: 80px !important;
+        top: 3800px !important;
     }
 
     .fac-2 .img-4 {
@@ -245,11 +274,19 @@ p {
         width: 80px;
         top: 1520px;
     }
-
+    .fac-3 {
+        grid-template-columns: 60% 40%;     
+    }
+    
     .fac3-img-body {
         position: relative;
     }
-
+    .gym-image img, .restaurant-image img {
+        max-width: none !important;
+    }
+    .gym-container{
+        padding-bottom: 0px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -258,9 +295,11 @@ p {
         text-align: center;
     }
 
-    .fac-1,
-    .fac-2 {
+    .fac-1 {
         padding-left: 10px;
+    }
+    .fac-2 {
+        padding-left: 0px;
     }
 
     .fac-header,
@@ -300,11 +339,12 @@ p {
         padding-top: 0;
         padding-bottom: 0;
     }
-
-    .spa {
-        padding-left: 10px;
+    .restaurant-section{
+        padding-bottom: 0px !important;
     }
-
+    .gym-container{
+        padding-bottom: 0px !important;
+    }
     .fac3-img {
         /* display: none; */
         position: relative;
@@ -323,6 +363,21 @@ p {
 
         width: 80px;
         top: 2340px;
+    }
+    .fac-1 .ellipse-1{
+        width: 115px;
+        top: 57px;
+    }
+    .fac-3 .ellipse-5 {
+        top:2430px;
+        width: 90px;
+    }
+    .ellipse-gym {
+        width:62px !important;
+        top:3495 !important;
+    }
+    .ellipse-restaurant{
+        width:67px !important;
     }
 }
 
