@@ -3,17 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .nav {
-  font-family: "Poppins", sans-serif;
+  padding: 20px 100px;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: rgba(221, 182, 198, 0.2);
+  background-color: #e5e5e5;
   z-index: 100;
   position: relative;
-  padding: 0 5%;
 }
 
 .logo {
@@ -59,7 +58,7 @@
 
 .nav-links .nav-link:hover::before,
 .nav-links .active::before {
-  content: "";
+  content: '';
   display: block;
   width: 10px;
   height: 10px;
@@ -88,13 +87,14 @@
     width: 30%;
   }
 }
+*/
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .hamburger {
     display: block;
     position: relative;
@@ -116,7 +116,7 @@
   }
 
   .nav-links {
-    transition: opacity .1s ease-out;
+    transition: opacity 0.1s ease-out;
     opacity: 0;
     height: 0;
     overflow: hidden;
