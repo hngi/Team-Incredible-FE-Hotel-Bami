@@ -1,46 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../assets/css/contact.css">
-</head>
-<body>
-       <!-- =========CONTACT PAGE =========== -->
-       <section class="contact-container">
-        <div class="contact-us">
-            <div class="contact-header">
-                <h1 class="contact-title">Contact <span>Us</span>
-                </h1>
-                <span class="contact-title-dash"></span>
-            </div>
-            <p class="contact-desc">For more information about our services, you can visit our:</p>
-            <div class="contact-branches">
-                <div class="contact-branch">
-                    <h3 class="branch-name">Abuja Branch</h3>
-                    <p class="branch-street">No. 5 Aliyu Babangida Street, Maitama, Abuja.</p>
-                </div>
-                <div class="contact-branch">
-                    <h3 class="branch-name">Kaduna Branch</h3>
-                    <p class="branch-street">No. 5 Aliyu Babangida Street, Narayi, Kaduna.</p>
+    <link rel="stylesheet" href="../assets/css/contact.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- =========CONTACT PAGE =========== -->
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo-left">Belle</span><span class="logo-right">View</span>
+      </div>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="../index.html">Home</a></li>
+        <li>
+          <a class="nav-link" href="/screens/facilities.html">Facilities</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/screens/suites-and-rooms.html"
+            >Rooms & Suites</a
+          >
+        </li>
+        <li>
+          <a class="nav-link active" href="/screens/contact-us.html"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </nav>
 
-                </div>
-            </div>
+    <section class="contact-container">
+      <div class="contact-us">
+        <div class="contact-header">
+          <h1 class="contact-title">Contact <span>Us</span></h1>
+          <span class="contact-title-dash"></span>
         </div>
-        <div class="contact-form">
-            <h3 class="form-title">You can also leave us a message at:</h3>
-            <form>
-                <input class="contact-name" type="text" placeholder="Name" />
-                <input class="contact-email" type="email" placeholder="E-mail Address" />
-                <input class="contact-no" type="text" placeholder="Phone Number" />
-                <textarea class="contact-message" rows="8" cols="50" placeholder="Message"></textarea>
-                <input class="contact-submit" type="submit" value="SEND">
-            </form>
+        <p class="contact-desc">
+          For more information about our services, you can visit our:
+        </p>
+        <div class="contact-branches">
+          <div class="contact-branch">
+            <h3 class="branch-name">Abuja Branch</h3>
+            <p class="branch-street">
+              No. 5 Aliyu Babangida Street, Maitama, Abuja.
+            </p>
+          </div>
+          <div class="contact-branch">
+            <h3 class="branch-name">Kaduna Branch</h3>
+            <p class="branch-street">
+              No. 5 Aliyu Babangida Street, Narayi, Kaduna.
+            </p>
+          </div>
         </div>
-        <div class="contact-circle"></div>
-        <div class="contact-circle circle-below"></div>
+      </div>
+      <div class="contact-form">
+        <h3 class="form-title">You can also leave us a message at:</h3>
+        <form>
+          <input class="contact-name" type="text" placeholder="Name" />
+          <input
+            class="contact-email"
+            type="email"
+            placeholder="E-mail Address"
+          />
+          <input class="contact-no" type="text" placeholder="Phone Number" />
+          <textarea
+            class="contact-message"
+            rows="8"
+            cols="50"
+            placeholder="Message"
+          ></textarea>
+          <input class="contact-submit" type="submit" value="SEND" />
+        </form>
+      </div>
+      <div class="contact-circle"></div>
+      <div class="contact-circle circle-below"></div>
     </section>
-<!-- ============= END OF CONTACT PAGE =================== -->
-</body>
+    <footer class="footer">
+      <div class="footer-section1">
+        <div>
+          <h1 class="footer-title">Belle<span>View</span></h1>
+        </div>
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-twitter footer-tw"></i></a>
+          <a href="#"><i class="fab fa-facebook-f footer-fb"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in footer-li"></i></a>
+        </div>
+        <div class="footer-newsletter">
+          <h1 class="footer-subscribe">Subscribe to our Newsletter</h1>
+          <form class="footer-form">
+            <input
+              class="footer-input"
+              type="text"
+              placeholder="E-mail Address"
+            />
+            <input class="footer-input" type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-section2">
+        <div class="footer-about">
+          <h3 class="footer-about-title">About Us</h3>
+          <ul class="footer-ul">
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">About Us</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Locations</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-suites">
+          <h3 class="footer-suites-title">Suites</h3>
+          <ul class="footer-ul">
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Golden Suite</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Silver Suite</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">King's Suite</a>
+            </li>
+            <li class="footer-link-li">
+              <a class="footer-link" href="#">Policy Suite</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <!-- ============= END OF CONTACT PAGE =================== -->
+  </body>
 </html>

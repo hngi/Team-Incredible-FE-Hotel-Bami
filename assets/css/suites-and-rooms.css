@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.nav {
+  background-color: white !important;
+}
+
 html,
 body {
   font-family: "Lato", "Arial", sans-serif !important;
