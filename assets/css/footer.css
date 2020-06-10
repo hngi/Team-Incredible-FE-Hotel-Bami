@@ -50,10 +50,6 @@
     margin: 0 10px;
     border-radius: 100%;
     color: #fff;
-  
-  }
-  
-  .footer-fb {
     padding: 15px 20px;
   }
   
@@ -108,29 +104,16 @@
     font-weight: bold;
     line-height: 36px;
     color: #fff;
-  }
-  
-  .footer-about-title,
-  .footer-suites-title {
     color: #fff;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-  }
-  
-  .footer-link {
     text-decoration: none;
     color: #fff;
-  }
-  
-  .footer-ul {
     list-style: none;
     padding: inherit;
-  }
-  
-  .footer-link-li {
     padding-bottom: 8px;
     font-size: 24px;
     line-height: 36px;
@@ -231,7 +214,6 @@
         padding: 0 15px;
     }
   
-    form {
         flex-wrap: nowrap;
     }
   
@@ -246,28 +228,24 @@
   }
   
   @media screen and (max-width: 320px) {
-    form {
+    .footer-form {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
         width: 100%;
     }
-  
     .footer-subscribe {
         font-size: 24px;
         line-height: 36px;
         padding: 0;
         margin-bottom: 0;
     }
-  
     .footer-newsletter {
         padding: 0 !important;
     }
-  
     .footer-subscribe {
         padding-left: 10px;
     }
-  
     .footer-tw,
     .footer-fb,
     .footer-li {
@@ -289,7 +267,6 @@
         padding: 8px 0 8px 0 !important;
         margin: 0 auto;
     }
-  
     .footer-tw,
     .footer-fb,
     .footer-li {
@@ -297,13 +274,9 @@
         margin: 0 5px;
         color: #fff;
     }
-  
     .footer-title {
         padding: 8px;
     }
-  
     .footer-fb {
         padding: 10px 12px;
     }
-  } 
-  
