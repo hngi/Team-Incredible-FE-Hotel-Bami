@@ -348,7 +348,13 @@ html {
 }
 
 .about-text {
-    color: #484c7f
+    color: #484c7f;
+    padding: 0 22px;
+}
+@media screen and (min-width: 450px) and (max-width: 600px) {
+    .about-text {
+        padding: 0 22px;
+    }
 }
 
 .about-title {
@@ -412,6 +418,27 @@ html {
     color: rgb(224, 134, 171);
     font-size: 3rem;
     font-weight: bold;
+}
+@media screen and (min-width: 200px) and (max-width: 365px) {
+    .special-title {
+        font-size: 16px;
+    }
+    .special-title img {
+        width: 40px;
+    }
+}
+@media screen and (min-width: 365px) and (max-width: 464px) {
+    .special-title {
+        font-size: 22px;
+    }
+    .special-title img {
+        width: 50px;
+    }
+}
+@media screen and (min-width: 465px) and (max-width: 650px) {
+    .special-title {
+        font-size: 30px;
+    }
 }
 
 .special-title .comp {
@@ -633,13 +660,16 @@ html {
 
     .about-title {
 
-        font-size: 3.5rem;
+        font-size: 3rem;
+        padding: 0 18px;
 
     }
 
     .about-image img {
+        margin: 18px 0;
         width: 100%;
         height: auto;
+        max-height: 450px;
     }
 
     .flexy-about {
@@ -681,5 +711,217 @@ html {
 
     .special-sec {
         display: block;
+    }
+}
+
+
+
+/*our services section*/
+
+.home-page-our-services {
+    margin: 12px;
+}
+.home-page-our-services .our-services-title h1 {
+    font-size: 90px;
+    text-align: center;
+}
+@media screen and (min-width: 200px) and (max-width: 440px) {
+    .home-page-our-services .our-services-title h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 440px) and (max-width: 540px) {
+    .home-page-our-services .our-services-title h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 800px) {
+    .home-page-our-services .our-services-title h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+.home-page-our-services .services-container {
+    width: 75%;
+    margin: auto;
+}
+@media screen and (max-width: 650px) {
+    .home-page-our-services .services-container {
+        width: 100%;
+        margin: auto;
+    }
+}
+.home-page-our-services .services-container .service-btn {
+    background: #FFFFFF;
+    border: 1px solid #484C7F;
+    color: #484C7F;
+    padding: 12px;
+    width: 25%;
+    min-height: 42px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+@media screen and (min-width: 379px) and (max-width: 411px) {
+    .home-page-our-services .services-container .service-btn {
+        font-size: 12px;
+        padding: 3px 1px;
+    }
+}
+@media screen and (min-width: 412px) and (max-width: 520px) {
+    .home-page-our-services .services-container .service-btn {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+.home-page-our-services .services-container .service-btn:hover {
+    background: #484C7F;
+    border: 1px solid #484C7F;
+    color: #FFFFFF;
+    transition: ease 0.6s;
+}
+.home-page-our-services .services-container .service-btn.active {
+    background: #484C7F;
+    border: 1px solid #484C7F;
+    color: #FFFFFF;
+    min-height: 42px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.home-page-our-services .services-container .service-content {
+    width: 100%;
+}
+.home-page-our-services .services-container .service-content .content-inner {
+    width: 50%;
+    float: left;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 650px) {
+    .home-page-our-services .services-container .service-content .content-inner {
+        width: 100%;
+    }
+}
+.home-page-our-services .services-container .service-content .content-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+.home-page-our-services .services-container .service-content .text {
+    background-color: #484C7F;
+    max-height: 500px;
+    min-height: 500px;
+}
+@media screen and (max-width: 650px) {
+    .home-page-our-services .services-container .content .content-inner {
+        width: 100%;
+    }
+}
+
+.home-page-our-services .services-container .service-content .content-inner .text-container {
+    margin: 3em 2em;
+    width: 100%;
+}
+.home-page-our-services .services-container .service-content .content-inner .text-container h1 {
+    font-size: 45px;
+    width: 95%;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 280px) and (max-width: 581px) {
+    .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
+        font-size: 25px;
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 1em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        height: auto;
+        /*min-height: 380px;*/
+    }
+}
+@media screen and (min-width: 581px) and (max-width: 650px) {
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 2em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        max-height: 380px;
+        min-height: 380px;
+    }
+}
+.home-page-our-services .services-container .service-content .content-inner .text-container div {
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.home-page-our-services .services-container .service-content .content-inner .text-container button {
+    font-size: 18px;
+    padding: 12px;
+    color: #FFFFFF;
+    background: #AC8DAF;
+    border-radius: 10px;
+    border: 1px solid #AC8DAF;
+}
+@media screen and (min-width: 651px) and (max-width: 858px) {
+    .home-page-our-services .services-container .content .content-inner {
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 1em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
+        font-size: 27px;
+        width: 95%;
+        margin-bottom: 3px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container div {
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        /*max-height: 380px;*/
+        min-height: 360px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner img {
+        width: 100%;
+        min-height: 360px;
+    }
+}
+@media screen and (min-width: 858px) and (max-width: 1179px) {
+    .home-page-our-services .services-container .content .content-inner {
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container {
+        margin: 1em 1em;
+        width: 100%;
+    }
+    .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
+        font-size: 27px;
+        width: 95%;
+        margin-bottom: 3px;
+    }
+    .home-page-our-services .services-container .service-content .text {
+        background-color: #484C7F;
+        /*max-height: 380px;*/
+        min-height: 420px;
+        max-height: 420px;
+    }
+    .home-page-our-services .services-container .service-content .content-inner img {
+        width: 100%;
+        min-height: 420px;
+        max-height: 420px;
     }
 }

@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: 0; 
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
     height: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    
+
 }
 
 section {
@@ -89,6 +89,7 @@ section {
 }
 .rooms-and-suites-search-container .search-input {
     background: #FFFFFF;
+    color: #484C7F;;
     border: 1px solid #484C7F;
     border-radius: 10px 0 0 10px;
     padding: 10px 200px 10px 30px;
@@ -168,7 +169,7 @@ section {
 }
 
 .container {
-    margin-top: -40px; 
+    margin-top: -40px;
 }
   .card-body {
     background-color: #FAEEF2;
@@ -223,9 +224,10 @@ section {
 
 .section-header2 {
     margin-top: 50px;
+    font-size: 36px;
     color: #43467C;
     padding: 50px;
-    
+
 }
 
 
@@ -256,14 +258,14 @@ section {
 
 
 
-  
 
-  
+
+
 /* SUITES AND ROOM MOBILE RSPONSIVENESS */
 
 /* For Desktops */
 @media only screen and (max-width: 1100px) {
-    
+
 .container {
     display: inline-flex;
     margin-left: 70px;
@@ -313,7 +315,7 @@ section {
     font-size: 30px;
     margin: auto;
 }
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+.rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     border-radius: 10px;
     padding: 12px 30px 12px 30px;
     margin-top: 10px;
@@ -425,10 +427,10 @@ section {
 .arrow {
   display: none;
 }
-    
-  
+
+
 }
- 
+
 
       /*For Large Tablets */
   @media (min-width: 768px) and (max-width: 1010px) {
@@ -482,7 +484,7 @@ section {
     font-size: 25px;
     margin: auto;
 }
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+.rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     border-radius: 10px;
     padding: 12px 30px 12px 30px;
     margin-top: 10px;
@@ -594,12 +596,12 @@ section {
   display: none;
 }
 
-     
-    
-    
+
+
+
   }
 
-  
+
    /*Small phones to small tablets: from 481px to 767px */
    @media (min-width: 481px) and  (max-width: 767px) {
 
@@ -656,7 +658,7 @@ section {
     font-size: 18px;
     margin: auto;
 }
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+.rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     border-radius: 10px;
     padding: 12px 30px 12px 30px;
     margin-top: 10px;
@@ -835,7 +837,7 @@ section {
     font-size: 18px;
     margin: auto;
 }
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+.rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     border-radius: 10px;
     padding: 12px 30px 12px 30px;
     margin-top: 10px;
@@ -976,7 +978,7 @@ section {
     font-size: 18px;
     margin: auto;
 }
-.rooms-and-suites-search-container .check-in-btn, .check-out-btn { 
+.rooms-and-suites-search-container .check-in-btn, .check-out-btn {
     border-radius: 10px;
     padding: 12px 30px 12px 30px;
     margin-top: 10px;
@@ -1010,7 +1012,7 @@ section {
    }
 
 
- 
+
 
 
 
