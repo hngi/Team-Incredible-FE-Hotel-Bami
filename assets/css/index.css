@@ -873,7 +873,10 @@ html {
     width: 350px;
 }
 
+nav{
+    background-color: rgba(221, 182, 198, 0.2);
 
+}
 /*Customer stories section */
 .stories-sec {
     height: 100vh;
