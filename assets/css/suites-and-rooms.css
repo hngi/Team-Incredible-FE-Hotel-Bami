@@ -244,6 +244,7 @@ section {
 
 .direction {
     margin: 50px 500px;
+    cursor: pointer;
 }
 
 .arrow-left {
