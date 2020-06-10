@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .fac-1,
 .fac-2 {
     padding-left: 100px;
