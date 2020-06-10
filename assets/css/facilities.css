@@ -87,9 +87,11 @@ p {
 }
 
 .fac2-img {
-    background-image: url("../images/fac-images/fac2-img1.png");
-    background-repeat: no-repeat;
-    background-position: 100%;
+    /* background-image: url("../images/fac-images/fac2-img1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 100%; */
+    width: 100%;
+    overflow: hidden;
 }
 
 .fac-2 p {
@@ -154,14 +156,6 @@ p {
     text-align: center;
     background-image: none;
 }
-
-.ellipse-restaurant{
-    position: absolute;
-    left: 1px;
-    width: 100px;
-    top: 2600px;
-
-}
 .restaurant-title {
     font-style: normal;
     font-weight: bold;
@@ -213,12 +207,6 @@ p {
     height: auto;
 }
 
-.ellipse-gym{
-    position: absolute;
-    right: 1px;
-    width: 100px;
-    top: 3300px;
-}
 /*tabs*/
 @media only screen and (max-width: 769px) {
 
@@ -241,6 +229,9 @@ p {
     .fac2-header1,
     .fac3-header1 {
         font-size: 30px;
+    }
+    .fac-2 {
+        grid-template-columns: 100%;
     }
 
     .fac-2 .img-3 {
@@ -378,10 +369,7 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    background-image: url("/assets/images/fac-images/ellipse4.png"), url("/assets/images/fac-images/ellipse3.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left bottom, 0% 80%;
-}
+    }
 
 .restaurant-title {
     font-style: normal;
@@ -404,7 +392,18 @@ p {
     height: auto;
     padding-top: 50px;
 }
-
+.ellipse-restaurant{
+    position: absolute;
+    left: 1px;
+    width: 100px;
+    top: 3100px;
+}
+.ellipse-gym{
+    position: absolute;
+    right: 1px;
+    width: 100px;
+    top: 4200px;
+}
 
 .gym-section {
     background-color: rgb(238, 232, 239);
@@ -413,9 +412,6 @@ p {
 .gym-container {
     display: flex;
     flex-direction: column;
-    background-image: url("/assets/images/fac-images/ellipse5.png"), url("/assets/images/fac-images/ellipse6.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right bottom, 100% 85%;
     padding-bottom: 100px;
 
 }
@@ -464,7 +460,18 @@ p {
         padding-top: 100px;
         padding-left: 50px;
     }
-
+    .ellipse-restaurant{
+        position: absolute;
+        left: 1px;
+        width: 100px;
+        top: 2900px;
+    }
+    .ellipse-gym{
+        position: absolute;
+        right: 1px;
+        width: 100px;
+        top: 3600px;
+    }
     .body-text {
         text-align: left;
         font-size: 1.125em;
