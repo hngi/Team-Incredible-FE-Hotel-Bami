@@ -68,7 +68,7 @@ form {
     display: flex;
 }
 
-input[type="text"] {
+input[type="text2"] {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     padding: 0.625rem !important;
