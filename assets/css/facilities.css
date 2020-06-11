@@ -4,10 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-<<<<<<< HEAD
-=======
+
     text-align: left !important;
->>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
+
+    text-align: left !important;
+
 }
 
 body {
@@ -162,7 +163,6 @@ p {
 
 /*tabs*/
 @media only screen and (max-width: 769px) {
-<<<<<<< HEAD
 
     p {
         font-size: 18px;
@@ -174,7 +174,13 @@ p {
     .fac-1,
     .fac-2 {
         padding-left: 10px;
-=======
+
+    p {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px;
+    }
+
 
     p {
         font-size: 18px;
@@ -225,11 +231,55 @@ p {
         top: 3800px !important;
     }
 
+
     .fac-3 {
         grid-template-columns: 60% 40%;
->>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
     }
 
+    .gym-image img,
+    .restaurant-image img {
+        max-width: none !important;
+    }
+
+    .gym-container {
+        padding-bottom: 0px !important;
+    }
+
+    .fac-1 .ellipse-1 {
+        top: 194px;
+    }
+
+    .fac-2 .ellipse-3 {
+        display: none;
+    }
+
+    .fac2-img img {
+        width: 769px;
+    }
+
+    .spa,
+    .gym-text,
+    .restaurant-text {
+        padding-left: 10px;
+    }
+
+    .fac-3 .ellipse-5 {
+        top: 2020px;
+    }
+
+    .ellipse-restaurant {
+        width: 80px !important;
+        top: 4026px !important;
+    }
+
+    .ellipse-gym {
+        width: 80px !important;
+        top: 3800px !important;
+    }
+
+    .fac-3 {
+        grid-template-columns: 60% 40%;
+      
     .gym-image img,
     .restaurant-image img {
         max-width: none !important;
@@ -296,13 +346,10 @@ p {
         padding-left: 10px;
     }
 
-<<<<<<< HEAD
-=======
     .fac-2 {
         padding-left: 0px;
     }
 
->>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
     .fac-1 button {
         margin: 15px;
         padding: 10px;
@@ -406,12 +453,15 @@ p {
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
-<<<<<<< HEAD
-=======
+
     .ellipse-restaurant {
         display: none;
     }
->>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
+
+    .ellipse-restaurant {
+        display: none;
+    }
+
 
     .fac-header,
     .fac2-header1,
@@ -487,11 +537,6 @@ p {
     }
 }
 
-<<<<<<< HEAD
-/* 
-=======
-/*
->>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
 /* restaurant and gym section  */
 .restaurant-section {
     padding: 10px;
