@@ -1,5 +1,25 @@
 const btn = document.querySelector('.search-btn');
 const div = document.querySelector('.display');
+const preloader = document.querySelector(".preloader");
+
+
+// loading animation js setup for fadeout after load
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then
+  // it will be equaled to "", that's why
+  // we check it, and if so, set opacity to 1
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 500);
+
+window.addEventListener("load", fadeEffect);
+
 
 // get array of buttons in services
 const buttons = document.querySelectorAll('button.service-btn');
