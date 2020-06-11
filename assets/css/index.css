@@ -1144,6 +1144,12 @@ nav {
         height: auto;
         max-height: 450px;
     }
+    .about-image-mobile img {
+        margin: 18px 0;
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
 
     .flexy-about {
         width: 100%;
@@ -1184,6 +1190,21 @@ nav {
 
     .special-sec {
         display: block;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about-sec {
+
+        display: block;
+
+    }
+    .about-image-mobile img {
+        margin: 18px 0;
+        width: 100%;
+        height: auto;
+        max-height: 320px;
+        min-height: 320px;
     }
 }
 
