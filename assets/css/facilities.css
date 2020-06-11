@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+<<<<<<< HEAD
+=======
+    text-align: left !important;
+>>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
 }
 
 body {
@@ -24,6 +28,7 @@ nav {
     background-blend-mode: lighten;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 10vh;
 }
 
 .fac-1 .ellipse-1 {
@@ -74,6 +79,14 @@ p {
     background-color: #FFFFFF;
     padding-top: 100px;
     padding-bottom: 150px;
+}
+
+.icon-one {
+    padding: 8px;
+    background-color: #ac8daf;
+    margin: 0 10px;
+    border-radius: 100%;
+    color: #fff;
 }
 
 .fac2-header1 {
@@ -149,6 +162,19 @@ p {
 
 /*tabs*/
 @media only screen and (max-width: 769px) {
+<<<<<<< HEAD
+
+    p {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px;
+    }
+
+
+    .fac-1,
+    .fac-2 {
+        padding-left: 10px;
+=======
 
     p {
         font-size: 18px;
@@ -165,6 +191,52 @@ p {
     .fac-1 .img-1 {
         width: 150px;
         top: 100px;
+    }
+
+    .fac-1 .ellipse-1 {
+        top: 194px;
+    }
+
+    .fac-2 .ellipse-3 {
+        display: none;
+    }
+
+    .fac2-img img {
+        width: 769px;
+    }
+
+    .spa,
+    .gym-text,
+    .restaurant-text {
+        padding-left: 10px;
+    }
+
+    .fac-3 .ellipse-5 {
+        top: 2020px;
+    }
+
+    .ellipse-restaurant {
+        width: 80px !important;
+        top: 4026px !important;
+    }
+
+    .ellipse-gym {
+        width: 80px !important;
+        top: 3800px !important;
+    }
+
+    .fac-3 {
+        grid-template-columns: 60% 40%;
+>>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
+    }
+
+    .gym-image img,
+    .restaurant-image img {
+        max-width: none !important;
+    }
+
+    .gym-container {
+        padding-bottom: 0px !important;
     }
 
     .fac-1 .img-2 {
@@ -220,11 +292,17 @@ p {
         padding: 10px;
     }
 
-    .fac-1,
-    .fac-2 {
+    .fac-1 {
         padding-left: 10px;
     }
 
+<<<<<<< HEAD
+=======
+    .fac-2 {
+        padding-left: 0px;
+    }
+
+>>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
     .fac-1 button {
         margin: 15px;
         padding: 10px;
@@ -278,8 +356,12 @@ p {
         padding-bottom: 0;
     }
 
-    .spa {
-        padding-left: 10px;
+    .restaurant-section {
+        padding-bottom: 0px !important;
+    }
+
+    .gym-container {
+        padding-bottom: 0px !important;
     }
 
     .fac3-img {
@@ -288,6 +370,25 @@ p {
         left: 0;
         height: 100%;
         width: 100%;
+    }
+
+    .fac-1 .ellipse-1 {
+        width: 115px;
+        top: 57px;
+    }
+
+    .fac-3 .ellipse-5 {
+        top: 2430px;
+        width: 90px;
+    }
+
+    .ellipse-gym {
+        width: 62px !important;
+        top: 3495 !important;
+    }
+
+    .ellipse-restaurant {
+        width: 67px !important;
     }
 
     .fac-3 .img-5 {
@@ -305,6 +406,12 @@ p {
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
+<<<<<<< HEAD
+=======
+    .ellipse-restaurant {
+        display: none;
+    }
+>>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
 
     .fac-header,
     .fac2-header1,
@@ -380,7 +487,11 @@ p {
     }
 }
 
+<<<<<<< HEAD
 /* 
+=======
+/*
+>>>>>>> a7ef26135616a7cab9f9645ddba0266b61bd459f
 /* restaurant and gym section  */
 .restaurant-section {
     padding: 10px;
