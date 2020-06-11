@@ -11,8 +11,14 @@
   align-items: center;
   min-height: 10vh;
   z-index: 100;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 0 5%;
+}
+
+.scrolled {
+  background-color: #fff;
 }
 
 .logo {
@@ -115,7 +121,7 @@
   }
 
   .nav-links {
-    transition: opacity .1s ease-out;
+    transition: opacity 0.1s ease-out;
     opacity: 0;
     height: 0;
     overflow: hidden;
@@ -139,6 +145,6 @@
   }
 
   .push-down {
-    margin-top: 25vh;
+    margin-top: 35vh;
   }
 }
