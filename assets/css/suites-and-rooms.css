@@ -287,6 +287,10 @@ section {
 /* For Desktops */
 @media only screen and (max-width: 1100px) {
 
+    #search-deals {
+        text-decoration: none;
+    }
+
     .container {
         display: inline-flex;
         margin-left: 70px;
@@ -464,6 +468,10 @@ section {
 /*For Large Tablets */
 @media (min-width: 768px) and (max-width: 1010px) {
 
+    #search-deals {
+        text-decoration: none;
+    }
+
     .container {
         display: inline-flex;
         margin-left: 70px;
@@ -636,6 +644,10 @@ section {
 
 /*Small phones to small tablets: from 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
+
+    #search-deals {
+        text-decoration: none;
+    }
 
     .container {
         display: inline-flex;
@@ -816,6 +828,10 @@ section {
 /*Small phones: from 371px to 480px */
 @media only screen and (max-width: 480px) {
 
+
+    #search-deals {
+        text-decoration: none;
+    }
 
     .container {
         display: inline-flex;
@@ -999,6 +1015,9 @@ section {
 @media only screen and (max-width: 370px) {
 
 
+    #search-deals {
+        text-decoration: none;
+    }
 
     .rooms-and-suites-search-container {
         width: 115%;
