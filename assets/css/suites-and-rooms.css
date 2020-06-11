@@ -135,6 +135,22 @@ section {
     outline: none;
 }
 
+.rooms-and-suites-search-container .search-input::placeholder {
+    color: #484C7F;
+    opacity: 1;
+    /* Firefox */
+}
+
+.rooms-and-suites-search-container .search-input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #484C7F;
+}
+
+.rooms-and-suites-search-container .search-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #484C7F;
+}
+
 #search-btn {
     color: #FFFFFF;
 }
@@ -339,6 +355,8 @@ section {
     .section-hot-deals {
         background-color: #FAEEF2;
         height: 300vh;
+        margin-top: 50%;
+
     }
 
     .flex {
@@ -373,6 +391,7 @@ section {
         color: #B08CAC;
         font-size: 2.5em;
         margin-left: 50px;
+        padding: 20px 60px;
         letter-spacing: 2px;
     }
 
@@ -509,6 +528,7 @@ section {
     .section-hot-deals {
         background-color: #FAEEF2;
         height: 300vh;
+        margin-top: 60%;
     }
 
     .flex {
@@ -540,8 +560,9 @@ section {
 
     .card-title {
         color: #B08CAC;
-        font-size: 2.5em;
+        font-size: 2em;
         margin-left: 50px;
+        padding: 10px 60px;
         letter-spacing: 2px;
     }
 
@@ -834,7 +855,7 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 14px;
-        width: 90%;
+        width: 100%;
     }
 
     .search-input::placeholder {
@@ -864,6 +885,7 @@ section {
     .section-hot-deals {
         background-color: #FAEEF2;
         height: 300vh;
+        margin-top: 85%;
     }
 
     .flex {
@@ -894,9 +916,10 @@ section {
 
     .card-title {
         color: #B08CAC;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-left: -20px;
         letter-spacing: 2px;
+        padding: 20px 60px;
     }
 
     .card-text {
