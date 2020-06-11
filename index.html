@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -16,7 +16,7 @@
     <title>Belle View Hotel | Homepage</title>
   </head>
 
-  <body onresize="reduceOurServices()">
+  <body onload="reduceOurServices()" onresize="reduceOurServices()">
     <div class="container">
       <nav class="nav">
         <div class="logo">
@@ -73,8 +73,7 @@
           <div class="home-welcome-title">
             <h1>
               <span>Welcome</span
-              ><!--
-                 --><img src="./assets/images/home-rectangle-2.png" alt="" />
+              ><img src="./assets/images/home-rectangle-2.png" alt="" />
             </h1>
           </div>
           <div class="content">
@@ -141,10 +140,7 @@
         <div class="flexy-special">
           <div class="special-title">
             <h2>
-              Special
-              <span class="comp">Deals</span
-              ><!--
-                 --><img src="./assets/images/home-rectangle-2.png" alt="" />
+              Special<span class="comp"> <br>Deals</span><img src="./assets/images/home-rectangle-2.png" alt=""/>
             </h2>
             <!--<span class="bar-three"></span>-->
           </div>
@@ -155,72 +151,45 @@
               convenience, you are sure of a pleasant stay.
             </p>
             <br />
-            <a style="padding: 12px;" href="#">CHECK ALL NOW</a>
+            <a style="padding: 12px;" href="#services">CHECK ALL NOW</a>
           </div>
         </div>
         <div class="special-img">
           <aside>
           
+            <div class="container card2 card-big">
+
             <div class="container card2">
+
               <div class="card-body">
+                <!--<span class="tag-label">SALE 30%</span>-->
                 <img src="./assets/images/golden_suite.png" class="suite-images" alt="Golden Suite">
-                <div class="title">
-                  <h5 class="card-title">GOLDEN SUITE <br>
-                    <p class="card-text">5,000 <span class="text3">naira</span> <br>
-                    <i class="text4">per night</i></p>
-                  </h5>
+                <div class="flex-direction">
+                  <div class="title">
+                    <h5 class="card-title">GOLDEN SUITE <br>
+                      <p class="card-text">5,000 <span class="text3">naira</span> <br>
+                      <i class="text4">per night</i></p>
+                    </h5>
+                  </div>
+                <div class="flex direction">
+                  <img src="./assets/images/arrow-left.png" class="suite-images arrow arrow-left" alt="Arrow Left">
+                  <img src="./assets/images/arrow-right.png" class="suite-images arrow arrow-right" alt="Arrow Right">
                 </div>
+
+                </div>
+
               </div>
             </div>
           </aside>
         </div>
       </div>
-      <!--Services section starts here-->
-      <!--<div class="services-text">-->
-      <!--<h1>-->
-      <!--Our <span class="comp">Services</span>&lt;!&ndash;-->
-      <!--&ndash;&gt;<img src="./assets/images/home-rectangle-2.png" alt="">-->
-      <!--</h1>-->
-      <!--&lt;!&ndash;<span class="bar-four"></span>&ndash;&gt;-->
-      <!--</div>-->
-      <!--<div class="rooms-and-suites-search-container">-->
-      <!--<button class="search-btn">Massage</button>-->
-      <!--&lt;!&ndash;&ndash;&gt;-->
-      <!--<button class="check-out-btn">Resturant</button>-->
-      <!--&lt;!&ndash;-&ndash;&gt;-->
-      <!--<button class="check-in-btn">Swimming Pool</button>-->
-      <!--&lt;!&ndash;&ndash;&gt;-->
-      <!--<button class="check-out-btn">Gymnasium</button>-->
-      <!--</div>-->
-      <!--<div class="services-sec">-->
-      <!--<div class="massage-display">-->
-      <!--<aside>-->
-      <!--<img src="./assets/images/our_services.png" alt="" />-->
-      <!--</aside>-->
-      <!--<aside class="details">-->
-      <!--<div class="display-title">-->
-      <!--<h3>Relax & Get Massaged</h3>-->
-      <!--<br />-->
-      <!--</div>-->
-      <!--<div class="display-text">-->
-      <!--<p>-->
-      <!--BelleView offers the best spa services and great massages at our-->
-      <!--highly organized and worldclass <br />-->
-      <!--Spa at very affordable rates. <br />-->
-      <!--Our masseurs are professionals with several years of expertise.-->
-      <!--</p>-->
-      <!--<a href="#">READ MORE</a>-->
-      <!--</div>-->
-      <!--</aside>-->
-      <!--</div>-->
-      <!--</div>-->
       <img
         class="img-two-elipse"
         src="./assets/ellipse/merged/ellipse-3.png"
         alt=""
       />
 
-      <section class="home-page-our-services">
+      <section class="home-page-our-services" id="services">
         <div class="our-services-title">
           <h1>
             <span style="color: #484c7f;">Our</span>
@@ -272,40 +241,94 @@
         </div>
       </section>
 
-      <!--Customer stories section-->
-      <div class="stories-sec">
-        <div class="flexy-stories">
-          <div class="customer-bg">
-            <div class="stories-title">
-              <h3>
-                Customer <br />
-                <span class="comp">Stories</span>
-              </h3>
-              <span class="bar-five"></span>
-              <p>
-                BelleView is the best choice for you and your loved ones to feel
-                at home, away from home.
-              </p>
-              <p>
-                With a combination of charm and convenience, you are sure of a
-                pleasant stay
-              </p>
-              <br />
-              <p id="author">Simnom Haruna</p>
+
+      <div style="clear: both"></div>
+
+      <section class="home-page-customer-stories">
+        <div class="story-container">
+          <div class="content">
+            <h1>
+              <span style="color: #ffffff;">Customer</span>
+              <span style="color: #AC8DAF">Stories</span><!--
+                 --><img src="./assets/images/home-rectangle-2.png" alt="">
+            </h1>
+            <div class="text">
+              BelleView is the best choice for you and your loved ones to feel at home, away from home.
+              With a combination of charm and convenience, you are sure of a pleasant stay
+            </div>
+            <div class="name">
+              Simnom Haruna
+            </div>
+          </div>
+          <img src="./assets/images/customer_stories.png" alt="">
+        </div>
+        <div style="clear: both; margin-bottom: 10em"></div>
+
+      </section>
+
+      <!--mobile view-->
+      <div class="story-container-mobile">
+        <div style="margin-top: 10em"></div>
+        <div>
+          <div class="image">
+            <img class="story-image-mobile" src="./assets/images/customer_stories.png" alt="">
+          </div>
+          <div class="content">
+            <h1>
+              <span style="color: #ffffff;">Customer</span>
+              <span style="color: #AC8DAF">Stories</span><!--
+                 --><img src="./assets/images/home-rectangle-2.png" alt="">
+            </h1>
+            <div class="text">
+              BelleView is the best choice for you and your loved ones to feel at home, away from home.
+              With a combination of charm and convenience, you are sure of a pleasant stay
+            </div>
+            <div class="name">
+              Simnom Haruna
             </div>
           </div>
         </div>
-        <div class="stories-img">
-          <aside>
-            <img src="./assets/images/customer_stories.png" alt="" />
-          </aside>
-        </div>
-        <img
-          class="img-four-elipse"
-          src="./assets/ellipse/merged/ellipse-3.png"
-          alt=""
-        />
+        <div style="margin-bottom: 4em"></div>
       </div>
+
+      <div style="clear: both"></div>
+
+
+      <!--Customer stories section-->
+      <!--<div class="stories-sec">-->
+        <!--<div class="flexy-stories">-->
+          <!--<div class="customer-bg">-->
+            <!--<div class="stories-title">-->
+              <!--<h3>-->
+                <!--Customer <br />-->
+                <!--<span class="comp">Stories</span>-->
+              <!--</h3>-->
+              <!--<span class="bar-five"></span>-->
+              <!--<p>-->
+                <!--BelleView is the best choice for you and your loved ones to feel-->
+                <!--at home, away from home.-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--With a combination of charm and convenience, you are sure of a-->
+                <!--pleasant stay-->
+              <!--</p>-->
+              <!--<br />-->
+              <!--<p id="author">Simnom Haruna</p>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="stories-img">-->
+          <!--<aside>-->
+            <!--<img src="./assets/images/customer_stories.png" alt="" />-->
+          <!--</aside>-->
+        <!--</div>-->
+        <!--<img-->
+          <!--class="img-four-elipse"-->
+          <!--src="./assets/ellipse/merged/ellipse-3.png"-->
+          <!--alt=""-->
+        <!--/>-->
+      <!--</div>-->
+
       <footer class="footer">
         <div class="footer-section1">
           <div>

@@ -4,9 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-}  
+}
+
 body {
     overflow-x: hidden;
+}
+
+nav {
+    background-color: #F9EFFA;
 }
 
 .fac-1,
@@ -39,7 +44,7 @@ p {
 .fac-header {
     color: #484C7F;
     font-size: 60px;
-    line-height: 76px;
+    line-height: 1;
     padding: 60px 0;
 }
 
@@ -87,9 +92,6 @@ p {
 }
 
 .fac2-img {
-    /* background-image: url("../images/fac-images/fac2-img1.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: 100%; */
     width: 100%;
     overflow: hidden;
 }
@@ -145,70 +147,15 @@ p {
     top: 1900px;
 }
 
-.restaurant-section {
-    padding-bottom: 100px;
-}
-
-.restaurant-container {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    background-image: none;
-}
-.restaurant-title {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 80px;
-    color: #AC8DAF;
-    font-size: 60px;
-}
-
-.body-text {
-    font-style: normal;
-
-    font-size: 16px;
-    line-height: 27px;
-    color: rgba(72, 76, 127, 0.74);
-}
-
-.restaurant-image img {
-    width: 100%;
-    height: auto;
-    padding-top: 50px;
-}
-
-
-.gym-section {
-    background-color: rgb(238, 232, 239);
-}
-
-.gym-container {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    background-image: none;
-    padding-bottom: 100px;
-
-}
-
-.gym-title {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 150px;
-    font-size: 50px;
-    color: #484C7F;
-}
-
-.gym-image img {
-    /* padding-top: 50px; */
-    width: 100%;
-    height: auto;
-}
-
 /*tabs*/
 @media only screen and (max-width: 769px) {
+
+    p {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px;
+    }
+
 
     .fac-1,
     .fac-2 {
@@ -225,11 +172,21 @@ p {
         top: 190px;
     }
 
+    .fac-1 button {
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
     .fac-header,
     .fac2-header1,
     .fac3-header1 {
-        font-size: 30px;
+        line-height: 1;
+        padding: 10px;
+        font-size: 40px;
+        text-align: left;
     }
+
     .fac-2 {
         grid-template-columns: 100%;
     }
@@ -246,16 +203,21 @@ p {
         top: 1520px;
     }
 
-    .fac3-img-body {
-        position: relative;
+    .fac3-img-body img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
     }
 
 }
 
+/* medium screen */
 @media only screen and (max-width: 600px) {
     p {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
+        padding: 10px;
     }
 
     .fac-1,
@@ -263,15 +225,30 @@ p {
         padding-left: 10px;
     }
 
+    .fac-1 button {
+        margin: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
     .fac-header,
     .fac2-header1,
     .fac3-header1 {
-        font-size: 30px;
+        line-height: 1;
+        padding: 10px;
     }
 
     .fac-1 .img-1 {
         width: 80px;
         top: 700px;
+    }
+
+    .fac2-img img,
+    .fac3-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
     }
 
     .fac-1 .img-2 {
@@ -328,12 +305,56 @@ p {
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
+
+    .fac-header,
+    .fac2-header1,
+    .fac3-header1 {
+        line-height: 1;
+        padding: 10px;
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .fac-1,
+    .fac-2,
+    .fac-3 {
+        padding: 10px;
+    }
+
+    .fac-1 button {
+        margin: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
     .fac-2 {
-        grid-template-columns: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fac-3 {
+        margin-top: -200px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .fac2-img {
         background-image: none;
+    }
+
+    .fac2-img img,
+    .fac3-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
     }
 
     .fac-2 .img-3 {
@@ -359,9 +380,10 @@ p {
     }
 }
 
+/* 
 /* restaurant and gym section  */
 .restaurant-section {
-    padding-bottom: 100px;
+    padding: 10px;
 }
 
 .restaurant-container {
@@ -369,14 +391,14 @@ p {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    }
+}
 
 .restaurant-title {
     font-style: normal;
     font-weight: bold;
-    line-height: 150px;
+    line-height: 1.5;
     color: #AC8DAF;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .body-text {
@@ -384,21 +406,28 @@ p {
     font-size: 16px;
     line-height: 27px;
     color: rgba(72, 76, 127, 0.74);
+    text-align: c;
+}
+
+.ellipse-gym {
+    display: none;
 }
 
 .restaurant-image img {
     width: 100%;
     max-width: 500px;
     height: auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
-.ellipse-restaurant{
+
+.ellipse-restaurant {
     position: absolute;
     left: 1px;
     width: 100px;
     top: 3100px;
 }
-.ellipse-gym{
+
+.ellipse-gym {
     position: absolute;
     right: 1px;
     width: 100px;
@@ -407,25 +436,27 @@ p {
 
 .gym-section {
     background-color: rgb(238, 232, 239);
+    padding: 10px;
 }
 
 .gym-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    justify-items: center;
+    text-align: center;
 
 }
 
 .gym-title {
     font-style: normal;
     font-weight: bold;
-    line-height: 150px;
-    font-size: 50px;
+    line-height: 1.5;
+    font-size: 35px;
     color: #484C7F;
 }
 
 .gym-image img {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -433,6 +464,7 @@ p {
 
 /* mobile for gym and restaurant */
 @media screen and (min-width:1020px) {
+
 
     .gym-container {
         padding-top: 100px;
@@ -452,6 +484,7 @@ p {
 
     .restaurant-text {
         padding-top: 100px;
+
         /* padding-left: 20px; */
     }
 
@@ -460,18 +493,21 @@ p {
         padding-top: 100px;
         padding-left: 50px;
     }
-    .ellipse-restaurant{
+
+    .ellipse-restaurant {
         position: absolute;
         left: 1px;
         width: 100px;
         top: 2900px;
     }
-    .ellipse-gym{
+
+    .ellipse-gym {
         position: absolute;
         right: 1px;
         width: 100px;
         top: 3600px;
     }
+
     .body-text {
         text-align: left;
         font-size: 1.125em;
