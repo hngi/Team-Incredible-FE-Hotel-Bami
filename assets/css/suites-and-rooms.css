@@ -262,13 +262,13 @@ section {
 
 /* For Desktops */
 @media only screen and (max-width: 1100px) {
-    
+ 
     .container {
         display: inline-flex;
         margin-left: 70px;
     }
     
-    section {
+     #suites-container{
         height: 80vh;
     }
     
@@ -299,7 +299,7 @@ section {
     
     
     .rooms-and-suites-search-container {
-        width: 130%;
+        width: 100%;
         margin-left: 20px;
     }
     .rooms-and-suites-search-container .search-input {
@@ -438,6 +438,10 @@ section {
     margin-left: 70px;
 }
 
+#suites-container {
+    height: 120vh!important;
+}
+
 
 .section-header {
     font-size: 4em;
@@ -466,7 +470,7 @@ section {
 
 
 .rooms-and-suites-search-container {
-    width: 217%;
+    width: 100%;
     margin-left: 20px;
 }
 .rooms-and-suites-search-container .search-input {
@@ -605,6 +609,10 @@ section {
     margin-left: 50px;
 }
 
+#suites-container {
+    height: 90vh;
+}
+
 
 .section-header {
     margin-top: 100px;
@@ -637,7 +645,7 @@ section {
 
 
 .rooms-and-suites-search-container {
-    width: 200%;
+    width: 100%;
     margin-left: 20px;
 }
 .rooms-and-suites-search-container .search-input {
@@ -681,7 +689,7 @@ section {
     width: 32%;
     padding: 15px;
     position: relative;
-    top: 17px;
+    top: 37px;
 }
 
 .suite-images {
@@ -781,6 +789,9 @@ section {
     margin-left: 10px;
 }
 
+#suites-container {
+    height: 110vh;
+}
 
 
 .section-header {
@@ -814,7 +825,7 @@ section {
 
 
 .rooms-and-suites-search-container {
-    width: 135%;
+    width: 80%;
     margin-left: 20px;
 }
 .rooms-and-suites-search-container .search-input {
@@ -858,7 +869,7 @@ section {
     width: 32%;
     padding: 15px;
     position: relative;
-    top: 16px;
+    top: 35px;
 }
 
 .suite-images {
@@ -1020,7 +1031,7 @@ section {
 .suites-rooms-trending .col-3 {width: 25%;}
 .suites-rooms-trending .col-4 {width: 33.33%;}
 .suites-rooms-trending .col-5 {width: 41.66%;}
-.suites-rooms-trending .col-6 {width: 50%;}
+.suites-rooms-trending .col-6 {width: 50%; }
 .suites-rooms-trending .col-7 {width: 58.33%;}
 .suites-rooms-trending .col-8 {width: 66.66%;}
 .suites-rooms-trending .col-9 {width: 75%;}
@@ -1065,7 +1076,7 @@ section {
 }
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .room-img img {
     max-height: 495px;
-    min-height: 495px;
+    /* min-height: 495px; */
 }
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content {
     background: #F6F6F9;
@@ -1082,8 +1093,9 @@ section {
 }
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .text {
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 00;
+    font-size: 1.7em;
+    line-height: 1.5;
     color: rgba(72, 76, 127, 0.74);
 }
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .icon {
@@ -1129,8 +1141,10 @@ section {
         margin: auto;
     }
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .title {
-        font-size: 23px;
+        font-size: 27px;
     }
+   .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .text {
+    font-size: 1.3em;
 }
 
 @media screen and (max-width: 650px) {
@@ -1139,6 +1153,10 @@ section {
         max-height: 345px;
         min-height: 345px;
     }
+    
+
+
+}
 }
 @media screen and (min-width: 600px) and (max-width: 650px) {
     .suites-rooms-trending .trending-top .trending-cards-top {
@@ -1164,8 +1182,12 @@ section {
         margin: auto;
     }
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .title {
-        font-size: 25px;
+        font-size: 35px;
     }
+
+      .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .text {
+    font-size: 1em;
+}
 }
 @media screen and (min-width: 800px) and (max-width: 1050px) {
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .room-img img {
@@ -1181,8 +1203,12 @@ section {
         margin: auto;
     }
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .title {
-        font-size: 27px;
+        font-size: 37px;
     }
+
+      .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .text {
+    font-size: 1em;
+}
 }
 @media screen and (min-width: 1050px) and (max-width: 1200px) {
     .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .room-img img {
@@ -1197,5 +1223,10 @@ section {
         width: 90%;
         margin: auto;
     }
+
+          .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content .text {
+    font-size: 1em;
+}
+    
 }
 
