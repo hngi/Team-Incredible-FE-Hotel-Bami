@@ -96,6 +96,22 @@ body {
     line-height: 20px;
 }
 
+.rooms-and-suites-search-container .search-input::placeholder {
+    color: #484C7F;
+    opacity: 1;
+    /* Firefox */
+}
+
+.rooms-and-suites-search-container .search-input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #484C7F;
+}
+
+.rooms-and-suites-search-container .search-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #484C7F;
+}
+
 .rooms-and-suites-search-container .check-in-btn,
 .check-out-btn {
     background: #ffffff;
