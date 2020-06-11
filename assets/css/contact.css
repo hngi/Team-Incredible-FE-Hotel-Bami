@@ -162,7 +162,7 @@
 
 
 /* ===============END OF CONTACT FORM=========== */
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 950px) {
   .contact-title-dash {
     display: none;
   }
