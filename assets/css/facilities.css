@@ -359,7 +359,10 @@ p {
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
-
+    .ellipse-restaurant {
+       display: none;
+    }
+    
     .fac-header,
     .fac2-header1,
     .fac3-header1 {
