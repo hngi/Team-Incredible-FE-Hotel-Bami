@@ -25,6 +25,7 @@ nav {
     background-blend-mode: lighten;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 10vh;
 }
 
 .fac-1 .ellipse-1 {
@@ -433,7 +434,7 @@ p {
     }
 }
 
-/* 
+/*
 /* restaurant and gym section  */
 .restaurant-section {
     padding: 10px;

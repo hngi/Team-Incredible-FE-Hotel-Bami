@@ -173,6 +173,7 @@ html {
     padding: 24px 0;
     width: 100%;
     height: 110vh;
+    margin-top: 10vh;
 }
 
 .home-welcome .home-welcome-left-container {
@@ -546,6 +547,15 @@ html {
 }
 
 @media screen and (max-width: 1000px) {
+
+.card-title {
+    color: #B08CAC;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 40px 60px;
+    letter-spacing: 2px;
+     margin-left: 40px;
+}
 
     .card-title {
         color: #B08CAC;
