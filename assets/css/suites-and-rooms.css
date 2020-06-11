@@ -95,6 +95,7 @@ section {
     font-size: 14px;
     outline: none;
     line-height: 20px;
+
 }
 
 .rooms-and-suites-search-container .check-in-btn,
@@ -121,6 +122,10 @@ section {
     color: white;
     background: rgb(85, 88, 134);
     outline: none;
+}
+
+#search-deals {
+    text-decoration: none;
 }
 
 .rooms-and-suites-search-container .search-btn {
@@ -325,7 +330,8 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 40px;
-        width: 90%;
+        width: 70%;
+        display: inherit;
     }
 
     .search-input::placeholder {
@@ -498,7 +504,8 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 30px;
-        width: 90%;
+        width: 70%;
+        display: inherit;
     }
 
     .search-input::placeholder {
@@ -855,7 +862,7 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 14px;
-        width: 100%;
+        width: 70%;
     }
 
     .search-input::placeholder {
@@ -877,6 +884,7 @@ section {
 
     .rooms-and-suites-search-container .search-btn {
         margin-top: 10px;
+        display: grid;
         border-radius: 10px;
         font-size: 18px;
         margin-left: -2px;
@@ -999,8 +1007,8 @@ section {
 
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
-        font-size: 14px;
-        width: 90%;
+        font-size: 10px;
+        width: 70%;
     }
 
     .search-input::placeholder {
@@ -1025,6 +1033,8 @@ section {
         border-radius: 10px;
         font-size: 15px;
         margin-left: -2px;
+        display: grid;
+
     }
 
     .section-hot-deals {
