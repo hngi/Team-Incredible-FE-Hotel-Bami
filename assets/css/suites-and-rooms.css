@@ -1148,6 +1148,7 @@ section {
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .room-img img {
     max-height: 495px;
     min-height: 495px;
+    border-radius: 20px;
 }
 
 .suites-rooms-trending .trending-top .trending-cards-top .trending-cards-container .content {
