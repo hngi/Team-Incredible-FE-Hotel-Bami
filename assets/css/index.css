@@ -449,6 +449,16 @@ html {
 }
 
 /*mobile view*/
+@media screen and (min-width: 201px) and (max-width: 470px) {
+    .home-welcome .img-container img {
+        float: right;
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 320px;
+        min-height: 320px;
+    }
+}
+
 @media screen and (min-width: 701px) and (max-width: 850px) {
     .home-welcome .img-container img {
         float: right;
@@ -457,9 +467,6 @@ html {
         max-height: 380px;
         min-height: 380px;
     }
-
-
-
 }
 
 @media screen and (min-width: 851px) and (max-width: 1150px) {
@@ -499,6 +506,7 @@ html {
         background-color: #F8F0F4;
         padding: 4px 0;
         width: 100%;
+        height: auto;
     }
 
     .home-welcome .home-welcome-left-container {
@@ -1098,6 +1106,23 @@ nav {
     margin-top: 134px;
     margin-left: -50%;
 }
+@media screen and (max-width: 800px) {
+    .about-image img {
+        display: none;
+    }
+    .about-image-mobile img {
+        display: block;
+    }
+}
+@media screen and (min-width: 801px) {
+    .about-image img {
+        display: block;
+    }
+    .about-image-mobile img {
+        display: none;
+    }
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .about-sec {
