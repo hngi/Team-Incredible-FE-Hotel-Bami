@@ -287,6 +287,10 @@ section {
 /* For Desktops */
 @media only screen and (max-width: 1100px) {
 
+    #search-deals {
+        text-decoration: none;
+    }
+
     .container {
         display: inline-flex;
         margin-left: 70px;
@@ -464,6 +468,10 @@ section {
 /*For Large Tablets */
 @media (min-width: 768px) and (max-width: 1010px) {
 
+    #search-deals {
+        text-decoration: none;
+    }
+
     .container {
         display: inline-flex;
         margin-left: 70px;
@@ -636,6 +644,10 @@ section {
 
 /*Small phones to small tablets: from 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
+
+    #search-deals {
+        text-decoration: none;
+    }
 
     .container {
         display: inline-flex;
@@ -816,6 +828,10 @@ section {
 /*Small phones: from 371px to 480px */
 @media only screen and (max-width: 480px) {
 
+
+    #search-deals {
+        text-decoration: none;
+    }
 
     .container {
         display: inline-flex;
@@ -999,6 +1015,9 @@ section {
 @media only screen and (max-width: 370px) {
 
 
+    #search-deals {
+        text-decoration: none;
+    }
 
     .rooms-and-suites-search-container {
         width: 115%;
@@ -1052,7 +1071,110 @@ section {
 
 }
 
+@media screen and (max-width: 1080px) {
+    .section-header {
+        margin-top: 100px;
+        color: #43467C;
+        font-weight: 700;
+        word-spacing: 10px;
+        font-size: 3.5em;
+        margin-left: 40px;
+        animation-name: bounceInDown;
+        animation-duration: 2s;
+    }
+    .section-para {
+        color: #43467C;
+        font-size: 1.4em;
+        margin: 20px 0 20px 52px;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+    }
+    .rooms-and-suites-search-container {
+        width: 100%;
+        margin-left: 45px;
+        outline: none;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+    }
+    .rooms-and-suites-search-container .search-input {
+        border-radius: 10px;
+        font-size: 27px;
+        width: 70%;
+        display: inherit;
+    }
+    .rooms-and-suites-search-container input .search-input {
+        width: 90%;
+    }
+    .rooms-and-suites-search-container .check-in-btn, .check-out-btn {
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .rooms-and-suites-search-container .search-btn {
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+}
 
+@media screen and (max-width: 974px) {
+    .section-para {
+        width: 70%;
+    }
+    .section-header {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-para {
+        width: 70%;
+    }
+    .section-header {
+        font-size: 2.5em;
+    }
+    .container {
+        height: auto;
+    }
+}
+@media screen and (max-width: 650px) {
+    .section-para {
+        width: 80%;
+    }
+    .container {
+        /*height: auto;*/
+    }
+    .section-header {
+        font-size: 1.7em;
+        margin-left: 20px;
+    }
+    .section-para {
+        color: #43467C;
+        font-size: 1.1em;
+        margin: 20px 0 20px 22px;
+    }
+    .rooms-and-suites-search-container {
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1081px) and (max-width: 1100px) {
+    .section-hot-deals {
+        margin-top: 480px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 1080px) {
+    .section-hot-deals {
+        margin-top: 180px;
+    }
+}
+@media screen and (min-width: 251px) and (max-width: 650px) {
+    .section-hot-deals {
+        margin-top: -150px;
+    }
+}
 
 
 
