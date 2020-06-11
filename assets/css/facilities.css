@@ -608,3 +608,12 @@ p {
         font-size: 60px;
     }
 }
+
+@media screen and (max-height: 650px) {
+    .ellipse-restaurant {
+        position: absolute;
+        left: 1px;
+        width: 100px;
+        top: 2900px !important;
+    }
+}
