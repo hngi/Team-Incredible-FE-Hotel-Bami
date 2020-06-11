@@ -167,11 +167,14 @@ p {
     }
 
 
-    .fac-1,
-    .fac-2 {
+    .fac-1 {
         padding-left: 10px;
     }
-
+    .fac-2{
+        padding-top:50px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
     .fac-1 .img-1 {
         width: 150px;
         top: 100px;
@@ -197,6 +200,7 @@ p {
 
     .fac-3 .ellipse-5 {
         top: 2020px;
+        width:90px;
     }
 
     .ellipse-restaurant {
@@ -264,7 +268,12 @@ p {
         height: auto;
         max-width: 500px;
     }
-
+    .restaurant-title, .gym-title{
+        padding-left:10px;
+    }
+    .restaurant-section, .gym-section{
+        padding: 0px !important;
+    }
 }
 
 /* medium screen */
@@ -305,8 +314,7 @@ p {
     .fac3-img {
         display: block;
         width: 100%;
-        height: auto;
-        margin-bottom: 20px;
+        height: 100%;
     }
 
     .fac-1 .img-2 {
@@ -318,8 +326,12 @@ p {
 
     .fac-2 {
         display: grid;
+        
     }
-
+    .fac-2-text{
+        margin:auto;
+        padding: 10px;
+    }
     .fac-2 .img-3 {
         width: 50px;
         top: 1620px;
@@ -382,6 +394,9 @@ p {
         width: 80px;
         top: 2340px;
     }
+    .gym-image img{
+        padding-top:0px !important;
+    }
 }
 
 /*smallest screens */
@@ -417,10 +432,10 @@ p {
     }
 
     .fac-2 {
-        margin-top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin:auto;
     }
 
     .fac-3 {
@@ -505,10 +520,7 @@ p {
 }
 
 .ellipse-restaurant {
-    position: absolute;
-    left: 1px;
-    width: 100px;
-    top: 3100px;
+    display:none;
 }
 
 .ellipse-gym {
@@ -547,7 +559,7 @@ p {
 }
 
 /* mobile for gym and restaurant */
-@media screen and (min-width:1020px) {
+@media screen and (min-width:1024px) {
 
 
     .gym-container {

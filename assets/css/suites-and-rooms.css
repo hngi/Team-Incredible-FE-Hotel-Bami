@@ -95,6 +95,7 @@ section {
     font-size: 14px;
     outline: none;
     line-height: 20px;
+
 }
 
 .rooms-and-suites-search-container .check-in-btn,
@@ -121,6 +122,10 @@ section {
     color: white;
     background: rgb(85, 88, 134);
     outline: none;
+}
+
+#search-deals {
+    text-decoration: none;
 }
 
 .rooms-and-suites-search-container .search-btn {
@@ -325,7 +330,8 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 40px;
-        width: 90%;
+        width: 70%;
+        display: inherit;
     }
 
     .search-input::placeholder {
@@ -498,7 +504,8 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 30px;
-        width: 90%;
+        width: 70%;
+        display: inherit;
     }
 
     .search-input::placeholder {
@@ -855,7 +862,7 @@ section {
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
         font-size: 14px;
-        width: 100%;
+        width: 70%;
     }
 
     .search-input::placeholder {
@@ -877,6 +884,7 @@ section {
 
     .rooms-and-suites-search-container .search-btn {
         margin-top: 10px;
+        display: grid;
         border-radius: 10px;
         font-size: 18px;
         margin-left: -2px;
@@ -999,8 +1007,8 @@ section {
 
     .rooms-and-suites-search-container .search-input {
         border-radius: 10px;
-        font-size: 14px;
-        width: 90%;
+        font-size: 10px;
+        width: 70%;
     }
 
     .search-input::placeholder {
@@ -1025,6 +1033,8 @@ section {
         border-radius: 10px;
         font-size: 15px;
         margin-left: -2px;
+        display: grid;
+
     }
 
     .section-hot-deals {
@@ -1042,7 +1052,110 @@ section {
 
 }
 
+@media screen and (max-width: 1080px) {
+    .section-header {
+        margin-top: 100px;
+        color: #43467C;
+        font-weight: 700;
+        word-spacing: 10px;
+        font-size: 3.5em;
+        margin-left: 40px;
+        animation-name: bounceInDown;
+        animation-duration: 2s;
+    }
+    .section-para {
+        color: #43467C;
+        font-size: 1.4em;
+        margin: 20px 0 20px 52px;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+    }
+    .rooms-and-suites-search-container {
+        width: 100%;
+        margin-left: 45px;
+        outline: none;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+    }
+    .rooms-and-suites-search-container .search-input {
+        border-radius: 10px;
+        font-size: 27px;
+        width: 70%;
+        display: inherit;
+    }
+    .rooms-and-suites-search-container input .search-input {
+        width: 90%;
+    }
+    .rooms-and-suites-search-container .check-in-btn, .check-out-btn {
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .rooms-and-suites-search-container .search-btn {
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+}
 
+@media screen and (max-width: 974px) {
+    .section-para {
+        width: 70%;
+    }
+    .section-header {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-para {
+        width: 70%;
+    }
+    .section-header {
+        font-size: 2.5em;
+    }
+    .container {
+        height: auto;
+    }
+}
+@media screen and (max-width: 650px) {
+    .section-para {
+        width: 80%;
+    }
+    .container {
+        /*height: auto;*/
+    }
+    .section-header {
+        font-size: 1.7em;
+        margin-left: 20px;
+    }
+    .section-para {
+        color: #43467C;
+        font-size: 1.1em;
+        margin: 20px 0 20px 22px;
+    }
+    .rooms-and-suites-search-container {
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1081px) and (max-width: 1100px) {
+    .section-hot-deals {
+        margin-top: 480px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 1080px) {
+    .section-hot-deals {
+        margin-top: 180px;
+    }
+}
+@media screen and (min-width: 251px) and (max-width: 650px) {
+    .section-hot-deals {
+        margin-top: -150px;
+    }
+}
 
 
 
