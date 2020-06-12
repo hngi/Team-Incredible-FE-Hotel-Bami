@@ -48,6 +48,8 @@ p {
     font-size: 60px;
     line-height: 1;
     padding: 60px 0;
+  animation-name: slideInLeft;
+   animation-duration: 2s;
 }
 
 .fac-header span {
