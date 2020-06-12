@@ -17,7 +17,10 @@ const fadeEffect = () => {
       }
   }, 300);
 };
-fadeEffect();
+
+if (preloader) {
+  fadeEffect();
+}
 
 if (btn) {
     btn.addEventListener('click', () => {
