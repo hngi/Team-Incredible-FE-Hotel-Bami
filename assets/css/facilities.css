@@ -556,7 +556,7 @@ p {
 .gym-image img {
     padding-top: 50px;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     height: auto;
 }
 
@@ -571,6 +571,10 @@ p {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+    
+    .gym-image img{
+        margin-left: -10px;
     }
 
     .restaurant-container {
@@ -587,9 +591,8 @@ p {
     }
 
     .gym-text {
-        padding-right: 50px;
         padding-top: 100px;
-        padding-left: 50px;
+        margin-right: 250px;
     }
 
     .ellipse-restaurant {
@@ -613,8 +616,8 @@ p {
         color: rgba(72, 76, 127, 0.74);
         display: block;
         width: 100%;
-        max-width: 509px;
-        line-height: 27px
+        max-width: 500px;
+        line-height: 27px;
     }
 
     .gym-title,
