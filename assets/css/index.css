@@ -79,21 +79,6 @@ html {
   border-radius: 20px;
 }
 
-/* Homepage loader animation setup */
-/* .preloader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: #ddb6c6;
-  position: fixed;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  transition: opacity 0.3s linear;
-} */
 
 /*welcome section*/
 
