@@ -1,8 +1,23 @@
 const btn = document.querySelector('.search-btn');
 const div = document.querySelector('.display');
+const preloader = document.querySelector(".preloader");
 
 // get array of buttons in services
 const buttons = document.querySelectorAll('button.service-btn');
+
+const fadeEffect = () => {
+  setInterval(() => {
+      if (!preloader.style.opacity) {
+          preloader.style.opacity = 1;
+      }
+      if (preloader.style.opacity > 0) {
+          preloader.style.opacity -= 1/10;
+      } else {
+          clearInterval(fadeEffect);
+      }
+  }, 300);
+};
+fadeEffect();
 
 if (btn) {
     btn.addEventListener('click', () => {
