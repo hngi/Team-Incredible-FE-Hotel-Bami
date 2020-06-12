@@ -1444,7 +1444,7 @@ nav {
 }
 
 .home-page-customer-stories {
-  width: 82%;
+  width: 97.5%;
 }
 
 .home-page-customer-stories .story-container {
@@ -1485,7 +1485,7 @@ nav {
 .home-page-customer-stories .story-container img {
   float: right;
   max-height: 290px;
-  margin-right: -145px;
+  margin-right: -165px;
 }
 
 @media screen and (min-width: 878px) and (max-width: 1034px) {
