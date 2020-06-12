@@ -17,6 +17,10 @@ nav {
     background-color: #F9EFFA;
 }
 
+nav {
+    background-color: #F9EFFA;
+}
+
 .fac-1,
 .fac-2 {
     padding-left: 100px;
@@ -234,6 +238,62 @@ p {
         max-width: none !important;
     }
 
+
+    .fac-1 {
+        padding-left: 10px;
+    }
+    .fac-2{
+        padding-top:50px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .fac-1 .img-1 {
+        width: 150px;
+        top: 100px;
+    }
+
+    .fac-1 .ellipse-1 {
+        top: 194px;
+    }
+
+    .fac-2 .ellipse-3 {
+        display: none;
+    }
+
+    .fac2-img img {
+        width: 769px;
+    }
+
+    .spa,
+    .gym-text,
+    .restaurant-text {
+        padding-left: 10px;
+    }
+
+    .fac-3 .ellipse-5 {
+        top: 2020px;
+        width:90px;
+    }
+
+    .ellipse-restaurant {
+        width: 80px !important;
+        top: 4026px !important;
+    }
+
+    .ellipse-gym {
+        width: 80px !important;
+        top: 3800px !important;
+    }
+
+    .fac-3 {
+        grid-template-columns: 60% 40%;
+    }
+
+    .gym-image img,
+    .restaurant-image img {
+        max-width: none !important;
+    }
+
     .gym-container {
         padding-bottom: 0px !important;
     }
@@ -278,6 +338,7 @@ p {
         display: block;
         width: 100%;
         height: auto;
+
     }
     .restaurant-title, .gym-title{
         padding-left:10px;
@@ -290,6 +351,7 @@ p {
 /* medium screen */
 @media only screen and (max-width: 600px) {
     p {
+ 
         font-size: 1.3em;
         text-align: left;
         padding: 10px;
@@ -491,7 +553,7 @@ p {
     }
 }
 
-/*
+
 /* restaurant and gym section  */
 .restaurant-section {
     padding: 10px;
@@ -519,6 +581,7 @@ p {
     color: rgba(72, 76, 127, 0.74);
     text-align: c;
     margin-top: 50px;
+
 }
 
 .ellipse-gym {
