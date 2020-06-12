@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Contact Us</title>
     <link
       rel="shortcut icon"
@@ -24,7 +24,8 @@
       type="text/css"
     />
   </head>
-  <body>
+  <body onload="reduceOurServices()"
+  onresize="reduceOurServices()">
     <!-- =========CONTACT PAGE =========== -->
     <nav class="nav">
       <a class="logo-link" href="../index.html">
@@ -36,15 +37,15 @@
       <ul class="nav-links">
         <li><a class="nav-link" href="../index.html">Home</a></li>
         <li>
-          <a class="nav-link" href="/screens/facilities.html">Facilities</a>
+          <a class="nav-link" href="../screens/facilities.html">Facilities</a>
         </li>
         <li>
-          <a class="nav-link" href="/screens/suites-and-rooms.html"
+          <a class="nav-link" href="../screens/suites-and-rooms.html"
             >Rooms & Suites</a
           >
         </li>
         <li>
-          <a class="nav-link active" href="/screens/contact-us.html"
+          <a class="nav-link active" href="../screens/contact-us.html"
             >Contact Us</a
           >
         </li>

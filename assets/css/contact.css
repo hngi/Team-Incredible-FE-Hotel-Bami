@@ -17,6 +17,8 @@
   position: relative;
   overflow: hidden;
   overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+
 }
 
 .contact-us {
@@ -239,6 +241,6 @@
   }
 
   .branch-street {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
