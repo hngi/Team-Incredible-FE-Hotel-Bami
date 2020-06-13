@@ -1476,6 +1476,11 @@ nav {
   width: 80%;
   margin: 4px;
 }
+.home-page-customer-stories .story-container .content img{
+  display: block;
+  margin-right: 685px;
+  margin-top: -17px;
+}
 
 .home-page-customer-stories .story-container .content .name {
   color: #ddb6c6;
