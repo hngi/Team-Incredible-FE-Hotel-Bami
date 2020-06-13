@@ -13,6 +13,22 @@
   box-sizing: border-box;
 }
 
+/* Homepage loader animation setup */
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #ddb6c6;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.3s linear;
+}
+
 html {
   scroll-behavior: smooth !important;
   font-family: poppins;
@@ -34,6 +50,12 @@ html {
 .side-image img {
   width: 320px;
   background-size: contain;
+}
+
+.home-welcome-title {
+
+  animation-name: slideInLeft;
+  animation-duration: 2s;
 }
 
 .welcome-text {
@@ -73,21 +95,6 @@ html {
   border-radius: 20px;
 }
 
-/* Homepage loader animation setup */
-.preloader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: #ddb6c6;
-  position: fixed;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  transition: opacity 0.3s linear;
-}
 
 /*welcome section*/
 
@@ -232,6 +239,7 @@ html {
   .img-four-elipse {
     display: none;
   }
+
   .card2 {
     margin-left: 123px;
     width: 80%;
@@ -416,7 +424,8 @@ html {
 
 @media screen and (min-width: 383px) and (max-width: 512px) {
   .home-welcome .home-welcome-text {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 2;
   }
 }
 
@@ -508,7 +517,7 @@ html {
   }
 
   .home-welcome .home-welcome-left-container {
-    padding: 2em 3em;
+    padding: 2em 1.5em;
   }
 
   /*.home-welcome .home-welcome-title h1 {*/
@@ -546,7 +555,9 @@ html {
 
 .about-text {
   color: #484c7f;
+  font-size: 20px;
   padding: 0 22px;
+  line-height: 2;
 }
 
 @media screen and (max-width: 1000px) {
@@ -638,7 +649,8 @@ html {
 }
 
 .welcome-text {
-  font-size: 1.4em;
+  font-size: 20px;
+
   line-height: 2;
 }
 
@@ -729,6 +741,8 @@ html {
 
 .special-text {
   color: #484c7f;
+  line-height: 2;
+  font-size: 20px;
 }
 
 .special-title {
@@ -782,8 +796,8 @@ html {
 
   .card2 {
     margin-top: 70px;
-    margin-left: 37px;
-    width: 89%;
+    margin-left: 67px;
+    width: 80%;
   }
 
   .arrow {
@@ -816,12 +830,12 @@ html {
   }
 
   .card-body {
-    width: 150%;
+    width: 100%;
     height: 100vh;
-    margin-left: -145px;
+    margin-left: -39px;
     margin-bottom: 50px;
   }
-  
+
 
   .card-title {
     color: #b08cac;
@@ -1247,7 +1261,7 @@ nav {
 
 @media screen and (min-width: 412px) and (max-width: 520px) {
   .home-page-our-services .services-container .service-btn {
-    font-size: 12px;
+    font-size: 11px;
     padding: 6px;
   }
 }
@@ -1264,7 +1278,7 @@ nav {
   border: 1px solid #484c7f;
   color: #ffffff;
   min-height: 42px;
-  font-size: 14px;
+  font-size: 11px;
   cursor: pointer;
   outline: none;
 }
@@ -1285,11 +1299,7 @@ nav {
   }
 }
 
-.home-page-our-services
-  .services-container
-  .service-content
-  .content-inner
-  img {
+.home-page-our-services .services-container .service-content .content-inner img {
   width: 100%;
   max-height: 500px;
 }
@@ -1306,43 +1316,25 @@ nav {
   }
 }
 
-.home-page-our-services
-  .services-container
-  .service-content
-  .content-inner
-  .text-container {
+.home-page-our-services .services-container .service-content .content-inner .text-container {
   margin: 3em 2em;
   width: 100%;
 }
 
-.home-page-our-services
-  .services-container
-  .service-content
-  .content-inner
-  .text-container
-  h1 {
+.home-page-our-services .services-container .service-content .content-inner .text-container h1 {
   font-size: 45px;
   width: 95%;
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 280px) and (max-width: 581px) {
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container
-    h1 {
+  .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
     font-size: 25px;
     width: 98%;
     margin-bottom: 10px;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container {
+  .home-page-our-services .services-container .service-content .content-inner .text-container {
     margin: 1em 1em;
     width: 100%;
   }
@@ -1355,11 +1347,7 @@ nav {
 }
 
 @media screen and (min-width: 581px) and (max-width: 650px) {
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container {
+  .home-page-our-services .services-container .service-content .content-inner .text-container {
     margin: 2em 1em;
     width: 100%;
   }
@@ -1371,23 +1359,13 @@ nav {
   }
 }
 
-.home-page-our-services
-  .services-container
-  .service-content
-  .content-inner
-  .text-container
-  div {
+.home-page-our-services .services-container .service-content .content-inner .text-container div {
   font-size: 18px;
   width: 80%;
   margin-bottom: 30px;
 }
 
-.home-page-our-services
-  .services-container
-  .service-content
-  .content-inner
-  .text-container
-  button {
+.home-page-our-services .services-container .service-content .content-inner .text-container button {
   font-size: 18px;
   padding: 12px;
   color: #ffffff;
@@ -1401,43 +1379,24 @@ nav {
     width: 100%;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container {
+  .home-page-our-services .services-container .service-content .content-inner .text-container {
     margin: 1em 1em;
     width: 100%;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container
-    h1 {
+  .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
     font-size: 27px;
     width: 95%;
     margin-bottom: 3px;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container
-    div {
+  .home-page-our-services .services-container .service-content .content-inner .text-container div {
     font-size: 14px;
     width: 90%;
     margin-bottom: 30px;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container
-    button {
+  .home-page-our-services .services-container .service-content .content-inner .text-container button {
     font-size: 14px;
     padding: 8px;
   }
@@ -1448,11 +1407,7 @@ nav {
     min-height: 360px;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    img {
+  .home-page-our-services .services-container .service-content .content-inner img {
     width: 100%;
     min-height: 360px;
   }
@@ -1463,21 +1418,12 @@ nav {
     width: 100%;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container {
+  .home-page-our-services .services-container .service-content .content-inner .text-container {
     margin: 1em 1em;
     width: 100%;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    .text-container
-    h1 {
+  .home-page-our-services .services-container .service-content .content-inner .text-container h1 {
     font-size: 27px;
     width: 95%;
     margin-bottom: 3px;
@@ -1490,19 +1436,21 @@ nav {
     max-height: 420px;
   }
 
-  .home-page-our-services
-    .services-container
-    .service-content
-    .content-inner
-    img {
+  .home-page-our-services .services-container .service-content .content-inner img {
     width: 100%;
     min-height: 420px;
     max-height: 420px;
   }
 }
 
+@media screen and (min-width: 800px) {
+  .home-page-our-services .our-services-title h1 img {
+    width: 58px;
+  }
+}
+
 .home-page-customer-stories {
-  width: 82%;
+  width: 97.5%;
 }
 
 .home-page-customer-stories .story-container {
@@ -1528,6 +1476,10 @@ nav {
 .home-page-customer-stories .story-container .content h1 span {
   display: block;
 }
+.home-page-customer-stories .story-container .content h1 span img {
+  float: initial;
+  width: 60px;
+}
 
 .home-page-customer-stories .story-container .content .text {
   color: white;
@@ -1543,7 +1495,7 @@ nav {
 .home-page-customer-stories .story-container img {
   float: right;
   max-height: 290px;
-  margin-right: -145px;
+  margin-right: -165px;
 }
 
 @media screen and (min-width: 878px) and (max-width: 1034px) {
