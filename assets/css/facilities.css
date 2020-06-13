@@ -15,9 +15,8 @@ nav {
     background-color: #F9EFFA;
 }
 
-.fac-1,
-.fac-2 {
-    padding-left: 100px;
+.fac-1 {
+    padding-left: 190px;
 }
 
 .fac-1 {
@@ -139,7 +138,6 @@ p {
     line-height: 80px;
     padding: 60px 0;
 }
-
 .fac3-img-body {
     position: relative;
     overflow: auto;
@@ -170,7 +168,10 @@ p {
 
 
     .fac-1 {
-        padding-left: 10px;
+        padding: 50px;
+    }
+    .fac-2-text{
+        padding:50px;
     }
     .fac-2{
         padding-top:50px;
@@ -194,10 +195,8 @@ p {
         width: 769px;
     }
 
-    .spa,
-    .gym-text,
-    .restaurant-text {
-        padding-left: 10px;
+    .spa, .gym-text, .restaurant-text {
+        padding: 45px;
     }
 
     .fac-3 .ellipse-5 {
@@ -286,10 +285,6 @@ p {
         padding: 10px;
     }
 
-    .fac-1 {
-        padding-left: 10px;
-    }
-
     .fac-2 {
         padding-left: 0px;
     }
@@ -353,7 +348,7 @@ p {
     .restaurant-section {
         padding-bottom: 0px !important;
     }
-
+    
     .gym-container {
         padding-bottom: 0px !important;
     }
@@ -400,6 +395,23 @@ p {
         padding-top:0px !important;
     }
 }
+/* */
+@media only screen and (max-width: 375px) {
+.fac-1{
+    padding:9px;
+}
+}
+@media only screen and (max-width: 425px) {
+    .fac-1{
+        padding:15px;
+    }
+    .fac-2-text {
+   padding: 15px;
+    }
+    .spa, .gym-text, .restaurant-text {
+        padding-left: 15px;
+    }
+}
 
 /*smallest screens */
 @media only screen and (max-width: 320px) {
@@ -414,6 +426,9 @@ p {
         padding: 10px;
         font-size: 27px;
     }
+    .fac-2-text{
+        padding: 0;
+    }
 
     p {
         font-size: 16px;
@@ -424,7 +439,7 @@ p {
     .fac-1,
     .fac-2,
     .fac-3 {
-        padding: 10px;
+        padding: 6px;
     }
 
     .fac-1 button {
@@ -473,7 +488,13 @@ p {
         width: 60px;
         top: 2400px;
     }
-
+    .spa {
+        padding-left:0px;
+    }
+    .gym-text,
+    .restaurant-text {
+        padding-left:6px;
+    }
     .fac-3 .img-6 {
 
         width: 60px;
@@ -574,15 +595,10 @@ p {
         justify-content: space-between;
         text-align: left;
     }
-    
-    .gym-image img{
-        display: block;
-        width: 100%;
-        /* min-width: 400px;
-        min-height: 450px; */
-        margin-left: -10px;
+    .fac-2-text{
+        padding-left: 190px;
     }
-    
+
     .restaurant-container {
         display: grid;
         grid-template-columns: 50% 60%;
@@ -592,12 +608,11 @@ p {
 
     .restaurant-text {
         padding-top: 100px;
-
-        /* padding-left: 20px; */
+        padding-left: 179px;
     }
-
-
-
+    .spa{
+        padding-left: 100px !important;
+    }
     .gym-text {
         padding-top: 100px;
         position: relative;
