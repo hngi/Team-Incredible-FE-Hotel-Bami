@@ -556,27 +556,33 @@ p {
 .gym-image img {
     padding-top: 50px;
     width: 100%;
-    max-width: 800px;
+  max-width: 500px;
     height: auto;
 }
 
-/* mobile for gym and restaurant */
+/*media for gym and restaurant */
 @media screen and (min-width:1024px) {
 
 
     .gym-container {
-        padding-top: 100px;
+    
+         padding-top: 100px;
         padding-bottom: 150px;
-
+        margin-right: 150px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        text-align: left;
     }
     
     .gym-image img{
+        display: block;
+        width: 100%;
+        /* min-width: 400px;
+        min-height: 450px; */
         margin-left: -10px;
     }
-
+    
     .restaurant-container {
         display: grid;
         grid-template-columns: 50% 60%;
@@ -590,9 +596,12 @@ p {
         /* padding-left: 20px; */
     }
 
+
+
     .gym-text {
         padding-top: 100px;
-        margin-right: 250px;
+        position: relative;
+        right: 50px;
     }
 
     .ellipse-restaurant {
@@ -611,7 +620,7 @@ p {
 
     .body-text {
         text-align: left;
-        font-size: 1.125em;
+        font-size: 1.3em;
         font-style: bold;
         color: rgba(72, 76, 127, 0.74);
         display: block;
@@ -622,7 +631,7 @@ p {
 
     .gym-title,
     .restaurant-title {
-        font-size: 78px;
+        font-size: 70px;
         font-weight: 600;
     }
 }
@@ -634,4 +643,19 @@ p {
         width: 100px;
         top: 2900px !important;
     }
+}
+
+@media screen and (width: 1024px){
+    .gym-text{
+        position: relative;
+        right: -90px;
+        font-size: 1rem;
+    }
+
+    .gym-image img{
+        min-height:460px ;
+    }
+
+
+
 }
