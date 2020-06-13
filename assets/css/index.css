@@ -1443,6 +1443,12 @@ nav {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .home-page-our-services .our-services-title h1 img {
+    width: 58px;
+  }
+}
+
 .home-page-customer-stories {
   width: 97.5%;
 }
@@ -1469,6 +1475,10 @@ nav {
 
 .home-page-customer-stories .story-container .content h1 span {
   display: block;
+}
+.home-page-customer-stories .story-container .content h1 span img {
+  float: initial;
+  width: 60px;
 }
 
 .home-page-customer-stories .story-container .content .text {
